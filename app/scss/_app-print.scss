@@ -1,0 +1,165 @@
+
+/* Print */
+@import "bootstrap/print";
+ 
+@mixin color-grey {
+  color: #666 !important;
+}
+
+@media print {
+  
+  section, aside, .header, footer, .carousel-indicators, .carousel-control, .no-print {
+    display: none;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 17px;
+  }
+
+  .callout {
+    height: auto;
+    padding-top: 10px;
+    h1 {
+      font-size: 30px;
+      margin-top: 0px;
+      margin-bottom: 15px;
+    }
+  }
+
+  a[href]:after {
+    content: "";
+  }  
+
+  a[data-toggle="popover"] {
+    display: none
+  }
+
+  .link-cli {
+    font-size: 16px;
+    text-decoration: none;
+    margin: 6px;
+   
+  }
+
+  .carousel-inner {
+    position: static;
+    height: auto !important;
+  }
+
+  .carousel .item {
+    height: auto;
+    position: static;
+    page-break-inside: avoid;
+    padding-top: 0;
+    display: inline-block;
+    float: left;
+    width: 49%;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+
+    &.last {
+      width: 100%;
+      h2 {
+        padding: 10px 0 0 0;
+      } 
+    }
+
+    p {
+      line-height: 17px;
+      text-transform: none;
+      margin-bottom: 9px
+    }
+
+    &:nth-child(2n+1) {
+      clear: left;
+      margin-right: 2%;
+    }
+    
+    .carousel-caption {
+      text-align: left;
+      position: static;
+      page-break-inside: avoid;
+      .infos {
+        display: none
+      }
+      h3 {
+        float: left;
+        font-size: 16px;
+        line-height: 15px;
+        padding-right: 10px;
+        margin: 0;
+        &:after {
+          content: ": ";
+        }
+
+        font-weight: bold;
+      }
+    }
+  }
+
+  #menu, .carousel-caption  {
+    padding: 0;
+  }
+
+  h1 {
+    margin-top: 35px;
+    margin-bottom: 0;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .page-header {
+    page-break-inside: avoid;
+    padding: 20px 0 0 0;
+    margin: 0 0 15px;
+    font-size: 20px;
+  }
+
+  section {
+    box-shadow: none;
+  }
+
+  #tips {
+    padding-top: 15px;
+    font-size: 14px;
+    &, div {
+      border: none;
+      font-size: 14px;
+      padding: 0
+    }
+    .panel-title {
+      border-bottom: 1px solid rgba(197, 197, 197, 0.8);
+      margin-bottom: 10px;
+    }
+    .caret {
+      display:none;
+    }
+    .panel {
+      padding-bottom: 21px;
+    }
+    .panel-body {
+      display: block
+    }
+    ul {
+      padding-left: 19px;
+      li {
+        line-height: 17px;
+        padding-bottom: 2px
+      }
+    }
+  }
+
+  .print-only {
+    display: block;
+  } 
+
+  .panel-heading {
+    padding: 5px 10px
+  }
+
+  .panel-title {
+    text-transform: uppercase
+  }
+}

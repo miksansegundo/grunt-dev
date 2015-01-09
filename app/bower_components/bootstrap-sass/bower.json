@@ -1,0 +1,12 @@
+{
+  "name": "bootstrap-sass",
+  "version": "2.1.1",
+  "main": "javascripts/bootstrap.js",
+  "license": "MIT",
+  "ignore": [
+  ],
+  "devDependencies": {
+  },
+  "keywords": [
+  ]
+}

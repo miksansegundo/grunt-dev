@@ -1,0 +1,163 @@
+<div id="menu-content" data-role="page"></div>
+
+
+<script type="text/template" id="tpl_menu">
+<h1 class="text-center no-print"><%= data.home_title %></h1>
+<div id="menu-semanal" class="carousel slide" data-ride="carousel" data-interval="false">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#menu-semanal" data-slide-to="0" class="active"><%= data.lunesLetra %></li>
+    <li data-target="#menu-semanal" data-slide-to="1"><%= data.martesLetra %></li>
+    <li data-target="#menu-semanal" data-slide-to="2"><%= data.miercolesLetra %></li>
+    <li data-target="#menu-semanal" data-slide-to="3"><%= data.juevesLetra %></li>
+    <li data-target="#menu-semanal" data-slide-to="4"><%= data.viernesLetra %></li>
+    <li data-target="#menu-semanal" data-slide-to="5"><%= data.sabadoLetra %></li>
+    <li data-target="#menu-semanal" data-slide-to="6"><%= data.domingoLetra %></li>
+  </ol>
+
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active color2">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.lunes %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.lunes.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.lunes.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.lunes.almuerzo.verdurasCocidas, data[alimentos.lunes.almuerzo.hidrato.tipo], alimentos.lunes.almuerzo.hidrato.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.hidratosPreferidos %>" data-content="<%= alimentos.otrosHidratos + especiales.pan %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lamerienda %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, alimentos.lunes.merienda.frutaNeutra.subtipo, alimentos.lunes.merienda.frutaNeutra.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaNeutraPreferida %>" data-content="<%= alimentos.otrasFrutasNeutras %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.crudas, alimentos.lunes.cena.verdurasCrudas, data.proteinas, alimentos.lunes.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCrudasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCrudas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+      </div>
+    </div>
+    <div class="item color5">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.martes %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.martes.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.martes.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.martes.almuerzo.verdurasCocidas, data[alimentos.martes.almuerzo.legumbre.tipo], alimentos.martes.almuerzo.legumbre.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.legumbrePreferida %>" data-content="<%= alimentos.otrasLegumbres %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lamerienda %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, data.dulce, alimentos.martes.merienda.frutaDulce.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaDulcePreferida %>" data-content="<%= alimentos.otrasFrutasDulces %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.martes.cena.verdurasCocidas, data.proteinas, alimentos.martes.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+      </div>
+    </div>
+    <div class="item color7">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.miercoles %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.miercoles.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.miercoles.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.miercoles.almuerzo.verdurasCocidas, data[alimentos.miercoles.almuerzo.proteinas.tipo], alimentos.miercoles.almuerzo.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lamerienda %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, alimentos.miercoles.merienda.frutaNeutra.subtipo, alimentos.miercoles.merienda.frutaNeutra.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaNeutraPreferida %>" data-content="<%= alimentos.otrasFrutasNeutras %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.crudas, alimentos.miercoles.cena.verdurasCrudas, data.proteinas, alimentos.miercoles.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCrudasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCrudas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+      </div>
+    </div>
+    <div class="item color5">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.jueves %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.jueves.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.jueves.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.jueves.almuerzo.verdurasCocidas, data[alimentos.jueves.almuerzo.hidrato.tipo], alimentos.jueves.almuerzo.hidrato.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.hidratosPreferidos %>" data-content="<%= alimentos.otrosHidratos + especiales.pan %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, data.dulce, alimentos.jueves.merienda.frutaDulce.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaDulcePreferida %>" data-content="<%= alimentos.otrasFrutasDulces %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.jueves.cena.verdurasCocidas, data.proteinas, alimentos.jueves.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+      </div>
+    </div>
+    <div class="item color2">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.viernes %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.viernes.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.viernes.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.viernes.almuerzo.verdurasCocidas, data[alimentos.viernes.almuerzo.legumbre.tipo], alimentos.viernes.almuerzo.legumbre.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.legumbrePreferida %>" data-content="<%= alimentos.otrasLegumbres %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lamerienda %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, alimentos.viernes.merienda.frutaNeutra.subtipo, alimentos.viernes.merienda.frutaNeutra.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaNeutraPreferida %>" data-content="<%= alimentos.otrasFrutasNeutras %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.crudas, alimentos.viernes.cena.verdurasCrudas, data.proteinas, alimentos.viernes.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCrudasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCrudas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+      </div>
+    </div>
+    <div class="item color7">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.sabado %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.sabado.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.sabado.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.crudas, alimentos.sabado.almuerzo.verdurasCrudas, data[alimentos.sabado.almuerzo.proteinas.tipo], alimentos.sabado.almuerzo.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCrudasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCrudas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lamerienda %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, data.dulce, alimentos.sabado.merienda.frutaDulce.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaDulcePreferida %>" data-content="<%= alimentos.otrasFrutasDulces %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.sabado.cena.verdurasCocidas, data.proteinas, alimentos.sabado.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p></div>
+    </div>
+    <div class="item color2 last">
+      <div class="carousel-caption">
+        <h2 class="page-header"><%= data.domingo %></h2>
+        <h3><%= data.eldesayuno %></h3>
+        <p><%= alimentos.domingo.desayuno + data.bebidasDesayuno %>.</p>
+        <h3><%= data.lamedia %></h3>
+        <p><%= LITERALS.replaceText(data.mediaMañana, alimentos.domingo.mediaMañana.frutaAcida.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaAcidaPreferida %>" data-content="<%= alimentos.otrasFrutasAcidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrosMedia, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.elalmuerzo %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.domingo.almuerzo.verdurasCocidas, data[alimentos.domingo.almuerzo.hidrato.tipo], alimentos.domingo.almuerzo.hidrato.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.hidratosPreferidos %>" data-content="<%= alimentos.otrosHidratos + especiales.pan %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lamerienda %></h3>
+        <p><%= LITERALS.replaceText(data.merienda, alimentos.domingo.merienda.frutaNeutra.subtipo, alimentos.domingo.merienda.frutaNeutra.nombre) %> <span class="infos"><a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.frutaNeutraPreferida %>" data-content="<%= alimentos.otrasFrutasNeutras %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="0" data-toggle="popover" data-original-title="<%= data.meriendaPreferida %>" data-content="<%= LITERALS.replaceText(data.otrasMeriendas, especiales.soja) %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+        <h3><%= data.lacena %></h3>
+        <p><%= LITERALS.replaceText(data.cena, data.cocidas, alimentos.domingo.cena.verdurasCocidas, data.proteinas, alimentos.domingo.cena.proteinas.nombre) %> <span class="infos"><a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.verdurasCocidasPreferidas %>" data-content="<%= alimentos.otrasVerdurasCocidas %>"><span class="fa fa-heart-o fa-lg"></span></a> <a href="#" tabindex="1" data-toggle="popover" data-original-title="<%= data.proteinasPreferidas %>" data-content="<%= alimentos.otrasProteinas %>"><span class="fa fa-heart-o fa-lg"></span></a></span></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#menu-semanal" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#menu-semanal" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+  <p class="text-center no-print leyenda-txt"><%= data.leyenda %></p>
+</div>
+
+<div class="text-center no-print">
+    <br>
+    <a href="#" class="btn btn-success print"><strong><%= data.imprimir %></strong> &nbsp;<span class="fa fa-print"></span></a>
+    <a href="#" class="btn btn-success enviar"><strong><%= data.enviarEmail %></strong> &nbsp;<span class="fa fa-envelope-o"></span></a>
+</div>
+<div class="row hide text-center no-print" id="enviar-menu">
+  <div class="col-lg-11">
+        <h3><%= data.enviarEmail %></h3>
+        <div class="row">
+              <div class="form-group col-lg-9 col-md-9 col-sm-9 col-xs-10 center-block no-float">
+                <p><%= data.enviaatu %></p>   
+                <div class="input-group">
+                    <div class="input-group-addon hidden-xs">@</div>
+                    <input class="form-control" type="email" placeholder="<%= data.email %>">
+                    <span class="input-group-btn">
+                      <button type="submit" class="enviar btn btn-success"><%= data.enviar %> <span class="fa fa-paper-plane"></span></button>
+                    </span>
+                  </div>
+              </div>         
+        </div>
+  </div>
+</div>
+<div class="enviar-mensaje hide text-center"></div>
+
+</script> 
+
+

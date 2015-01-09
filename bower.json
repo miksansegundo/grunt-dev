@@ -1,0 +1,21 @@
+{
+  "name": "Metodo-Manniello",
+  "version": "0.1.0",
+  "main": "index.html",
+  "ignore": [
+    ".jshintrc",
+    "**/*.txt"
+  ],
+  "dependencies": {
+    "json3": "~3.2.6",
+    "modernizer": "",
+    "jquery": "",
+    "underscore": "",
+    "backbone": "",
+    "jquery-1.11.1.min": "http://code.jquery.com/jquery-1.11.1.min.js",
+    "console-polyfill": "~0.1.2",
+    "jquery.hammer": "https://github.com/hammerjs/jquery.hammer.js.git",
+    "hammerjs": "~2.0.2"
+  },
+  "devDependencies": {}
+}

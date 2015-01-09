@@ -1,0 +1,83 @@
+CACHE MANIFEST
+
+#version 1.0 10-18-2014 22:00
+
+CACHE:
+
+#images
+/img/carbohidratos.jpg
+/img/clinica-donato-manniello.jpg
+/img/desayunos.jpg
+/img/dr-donato-manniello.jpg
+/img/frutas.jpg
+/img/idiomas/b_espanol.png
+/img/idiomas/b_frances.png
+/img/idiomas/b_ingles.png
+/img/legumbres.jpg
+/img/libro-metodo-en.png
+/img/libro-metodo.png
+/img/libro-metodo-fr.png
+/img/metodo-manniello-clinica.png
+/img/metodo-manniello.png
+/img/osteo.jpg
+/img/proteinas.jpg
+/img/verduras.jpg
+/img/video-grupos.jpg
+/img/video-presentacion.jpg
+
+#internal HTML documents
+/index.php?option=com_content&view=article&id=5&Itemid=134&lang=es
+/index.php?option=com_content&view=article&id=5&Itemid=134&lang=en
+/index.php?option=com_content&view=article&id=5&Itemid=134&lang=fr
+
+#html views
+/js/components/modules/menu/menu.js
+/js/components/modules/home/home.js
+
+#style sheets
+/css/app.css
+/css/bootstrap-checkbox.css
+/css/font-awesome.min.css
+/css/main.css
+
+#style sheet images
+/img/bg3.jpg
+/img/bg1_600.jpg
+/img/bg1_1000.jpg
+/img/bg1_1400.jpg
+
+#fonts
+/fonts/fontawesome-webfont.woff?v=4.1.0
+/fonts/OpenSans-Regular-webfont.woff
+/fonts/amaticsc-regular-webfont.woff
+/fonts/fontawesome-webfont.svg?v=4.1.0
+/fonts/OpenSans-Regular-webfont.svg
+/fonts/amaticsc-regular-webfont.svg
+/fonts/fontawesome-webfont.ttf?v=4.1.0
+/fonts/OpenSans-Regular-webfont.ttf
+/fonts/amaticsc-regular-webfont.ttf
+/fonts/glyphicons-halflings-regular.woff
+/fonts/glyphicons-halflings-regular.svg
+/fonts/glyphicons-halflings-regular.ttf
+
+#javascript files
+http://www.google-analytics.com/ga.js
+/google_analytics_auto.js
+/js/components/modules/home/home.js
+/js/bower/bower_concat.js
+/bower_components/bootstrap-sass/javascripts/bootstrap.js
+/js/libs/offline.min.js
+/js/libs/skrollr.min.js
+/js/libs/bootstrap-checkbox.js
+/js/optimized_modules.js
+/js/components/proyect_config.js
+/js/components/proyect_literals.js
+/js/api/literals.js
+/js/api/menu.js
+/js/api/mobile.js
+/js/app.js
+/js/components/proyect_router.js
+
+NETWORK:
+/favicon.ico
+http://www.google-analytics.com/*
