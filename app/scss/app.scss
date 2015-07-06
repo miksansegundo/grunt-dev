@@ -44,12 +44,12 @@ _______________________*/
 }
 
 @include font-face("Open Sans", 
-	font-files(
-	"OpenSans-Regular-webfont.woff", 
-	"OpenSans-Regular-webfont.ttf", 
-	"OpenSans-Regular-webfont.svg",
-	"OpenSans-Regular-webfont.otf"
-	));
+  font-files(
+  "OpenSans-Regular-webfont.woff", 
+  "OpenSans-Regular-webfont.ttf", 
+  "OpenSans-Regular-webfont.svg",
+  "OpenSans-Regular-webfont.otf"
+  ));
 
 @include font-face("Amatic SC", 
 	font-files(
@@ -100,6 +100,10 @@ h1 {
   letter-spacing: 7px;
   font-size: 57px;
   text-transform: uppercase;
+}
+
+[lang=ru] h1 {
+  font-family: "Open Sans";
 }
 
 .text-vertical-center {
@@ -673,7 +677,7 @@ label.bootstrap-checkbox.disabled {
   label {
     padding-left: 5px;
     line-height: 10px;
-
+    display: block;
   }
   button {
     margin-left: -25px;
@@ -787,7 +791,9 @@ label.bootstrap-checkbox.disabled {
       right: 12%;
       text-shadow: 0 1px 2px rgba(255, 255, 255, 1);
       color: #000;
-      bottom: 50px;
+      top: 0;
+      bottom: auto;
+      padding-top: 0;
     }
 
     .popover-title {
@@ -835,6 +841,10 @@ label.bootstrap-checkbox.disabled {
   }
 }
 
+html[lang=de] .carousel .item p {
+    text-transform: none
+}
+
 #grupos {
   .img-responsive {
     width: 100%
@@ -864,6 +874,7 @@ label.bootstrap-checkbox.disabled {
   padding-bottom: 4px;
   font-weight: bold;
   text-transform: uppercase;
+  margin-top: 11px;
 }
 
 .carousel-indicators {
@@ -872,6 +883,7 @@ label.bootstrap-checkbox.disabled {
   z-index:11;
   margin-left: -50%;
   width: 100%;
+
   li {
     width: auto;
     min-width: 27px;
@@ -1015,6 +1027,7 @@ label.bootstrap-checkbox.disabled {
 
 .carousel-caption > h3 {
     margin: 19px 0 5px;
+    font-size: 24px;
 }
 
 .carousel-caption {
@@ -1031,6 +1044,9 @@ label.bootstrap-checkbox.disabled {
   }
 }
 @media screen and (max-width: 768px) {
+  .carousel-indicators {
+    height: 60px;
+  }
   .sidebar-nav li {
     line-height: 32px;
   }
@@ -1080,6 +1096,15 @@ label.bootstrap-checkbox.disabled {
     }
   }
 
+  [lang=ru] {
+    h1 {
+      font-size: 38px;
+    }
+    #inicio h1, #titulo h1 {
+      font-size: 35px;
+    }
+  }
+
   .link-cli, .link-cli:hover {
     font-size: 26px
   }
@@ -1101,7 +1126,8 @@ label.bootstrap-checkbox.disabled {
     padding-top: 15px
   }
   .carousel-caption > h3 {
-    margin: 11px 0 3px;
+    margin: 10px 0 0px;
+    font-size: 21px;
   }
   .print, .enviar {
     display: block;
@@ -1109,7 +1135,7 @@ label.bootstrap-checkbox.disabled {
     margin: 9px auto;
   }
   .carousel .item .carousel-caption {
-    bottom: 43px
+    
   }
   h1:not(.header h1) {
     font-size: 50px;

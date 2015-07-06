@@ -69,9 +69,10 @@ LITERALS = {};
   var setLanguageLiteralsInMain = function () {
     var literals = data[lang];
 
+    $("html").attr("lang", lang);
     $("#lt-appTitle, #lt-appTitle2, #title2, #lt-title2").attr("content", literals.appTitle);
     $("#lt-title, #lt-metodo").html(literals.title);
-    $("#title2, #lt-title2").html(literals.appTitle);
+    $("#title2, #lt-title2, #lt-title3").html(literals.appTitle);
     $("#lt-appDesc").attr("content", literals.appDesc);
     $("#lt-appName").attr("content", literals.appName);
     $("#lt-appUrl").attr("content", literals.appUrl);
@@ -168,27 +169,50 @@ LITERALS = {};
 
   }
 
-  this.bindLanguageOptions = function (){
-	 	
-		$("#idiomas .btn").each(function(){
-			if($(this).attr("value")===lang){
-				$(this).addClass("active")
-			}
-		})
-		
-    $(".language").off().on("click", function (e){
-			e.preventDefault();
-			if(!$(this).hasClass("active")){
-				$("#menuContainer .btn").removeClass("active");
-        $(this).addClass("active");
-				$("#sidebar-wrapper").toggleClass("active");
-				lang = $(this).attr("value");
-        setLanguageLiteralsInMain();
-        MainMenu.setMenuLiterals();
-        App.actualModule.refreshModule();
-        $(document).trigger("showAlimentos");
-			}
-		});
-  };
+    this.bindLanguageOptions = function (){
+
+    	$("#idiomas .btn").each(function(){
+    		if($(this).attr("value")===lang){
+    			$(this).addClass("active")
+    		}
+    	});
+    		
+        $(".language").off().on("click", function (e){
+    		e.preventDefault();
+    		if(!$(this).hasClass("active")){
+      
+                lang = $(this).attr("value");
+                
+                $("html").attr("lang", lang);
+               
+                $("#menuContainer .btn").removeClass("active");
+               
+                $(this).addClass("active");
+               
+                $("#sidebar-wrapper").toggleClass("active");
+               
+                setLanguageLiteralsInMain();
+                
+                resetStyles();
+                
+                MainMenu.setMenuLiterals();
+                
+                App.actualModule.refreshModule();
+               
+                $(document).trigger("showAlimentos");
+
+    		}
+    	});
+
+
+    };
+
+    var resetStyles = function (){
+        var queryString = '?reload=' + new Date().getTime();
+        $('link[rel="stylesheet"]').each(function () {
+            this.href = this.href.replace(/\?.*|$/, queryString);
+        });
+
+    }
 }).apply( LITERALS );
 LITERALS.load();

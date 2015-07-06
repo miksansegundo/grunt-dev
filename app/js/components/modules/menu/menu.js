@@ -54,7 +54,7 @@ Proyect.Menu = {};
 
     names = _.uniq(_.pluck(_.pluck(models, "attributes"), "nombre")).join(separator) + end
 
-    return names.toLowerCase();
+    return names
   }
 
 
@@ -140,16 +140,21 @@ Proyect.Menu = {};
 
       addToList: function (item) {
         
+        var lang = $("html").attr("lang");
+
+        //item.nombre = lang === 'de' ? item.nombre : item.nombre.toLowerCase(); 
         this.list.push(item);  
-        item.nombre = item.nombre.toLowerCase(); 
         return item
       },
 
       addToListByList: function (items) {
+        var lang = $("html").attr("lang");
+
         var list = this.list;
+
         _.each(items, function (item) {
+          //item.attributes.nombre = lang === 'de' ? item.nombre : item.attributes.nombre.toLowerCase(); 
           list.push(item.attributes);
-          item.attributes.nombre = item.attributes.nombre.toLowerCase(); 
         })
 
         return items
@@ -441,7 +446,7 @@ Proyect.Menu = {};
             listaTxt += "<li><strong>" + tipo + ":</strong> ";
             _.each(lista, function (item, i) {
 
-              listaTxt += sep + i.toLowerCase() + " " + item.length 
+              listaTxt += sep + i + " " + item.length 
                 + (item.length > 1 ? myData.raciones : myData.racion); 
 
               sep = ", ";
@@ -466,7 +471,7 @@ Proyect.Menu = {};
         }).get(),
 
         maxHeight = Math.max.apply(null, heights);
-        $(".carousel-inner").height(maxHeight + 35);
+        $(".carousel-inner").height(maxHeight + 120);
       },
 
       faltanAlimentos: function () {

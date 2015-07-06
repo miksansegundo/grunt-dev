@@ -131,6 +131,12 @@ LITERALDATA = {
                 },
                 {
                     "language":"Français"
+                },
+                {
+                    "language":"Deutsch"
+                },
+                {
+                    "language":"pусский"
                 }
         ],
         "mainMenu": {
@@ -201,7 +207,7 @@ LITERALDATA = {
                 "and": "et",
                 "yogurSoja": "ou yaourt au soja ",
                 "acida": "acide",
-                "dulce": "sucre",
+                "dulce": "sucré",
                 "neutra": "neutre",
                 "panIntegral": " Et peut prendre ",
                 "home_title": "Votre menu santé ",
@@ -882,7 +888,7 @@ LITERALDATA = {
             }
         }
     },
-"en": {
+﻿   "en": {
         "scrollDown": "Or scroll down.",
         "fullscreen": '<strong>Install the application!</strong> with your <strong>Add to Home Screen</strong> menu option <span class="fa fa-arrow-circle-down fa-lg"></span>',
         "libroSrc": "libro-metodo-en.png",
@@ -900,8 +906,8 @@ LITERALDATA = {
         "clinica": "Alternative Medicine Clinic",
         "quote": '<p>“The art of manual therapy is ancient. I greatly esteem those that discovered it, as well as those that by several generations succeed me and whose work contributes to the development of the natural art of curing”. <small>Hippocrates (435 B.C.)</small></p>',
         "reco2List": [
-            'It is recommended not to mix more than two starches. And do not mix protein with one another',
-            'Eat <strong>fruits out of meals</strong>, the ideal is at the mid morning and / or mid afternoon, or only as breakfast (attention not mix sweet fruit with acid fruit)',
+            'It is recommended not to mix more than two starches. And do not mix one protein with another',
+            'Eat <strong>fruits out of meal times</strong>, the ideal is  mid morning and / or mid afternoon, or only as breakfast (Pay attention not mix sweet fruit with acid fruit)',
             'Always eat acid fruit or semi acid in the morning and eat sweet fruit in the morning and / or in the afternoon.',
             'Always combine protein with cooked or raw vegetables.',
             'Always combine starches with cooked vegetables (<strong>pumpkin, carrots, artichokes, cauliflower, peas, beans, beets… are considered starches)</strong>).',
@@ -909,26 +915,26 @@ LITERALDATA = {
         ],
         "reco3List": [
           'Consume ripe fruit preferably <strong>organic and seasonal</strong>.',
-          'Consume preferably <strong>whole</strong> rice and flour.',
-          'It is preferable to buy fish at the market, organic chicken and meats.',
-          'Drink water at room temperature (maximum 2 liters per day) outside meals (do not drink cold drinks for meals).',
-          'Once food served and chew foods well.',
-          'General requirements for a day:'
+          'Consume <strong>wholegrain</strong> rice and whole flour preferably.',
+          'It is preferable to buy organic chicken and meat, and to buy fresh fish from the market.',
+          'Drink water at room temperature (maximum 2 liters per day) outside meal times (do not drink cold drinks with meals).',
+          'Only have one helping of food and chew all foods well.',
+          'General daily requirements:'
             + '<ul>'
-             + '<li><strong>60% Fruits and vegetables</strong> (fruit mid morning and another mid afternoon, 2 vegetables in lunch and 2 vegetables at dinner)</li>'
-             + '<li><strong>20% Cereals and carbohydrates</strong> (in the morning and 3 times a week to lunch)</li>'
-             + '<li><strong>20% Protein</strong> (still in diner).</li>'
+             + '<li><strong>60% Fruits and vegetables</strong> (fruit mid morning and another mid afternoon, 2 vegetables at lunch and 2 vegetables at dinner)</li>'
+             + '<li><strong>20% Cereals and carbohydrates</strong> (in the morning and 3 times a week at lunch)</li>'
+             + '<li><strong>20% Protein</strong> (still at diner).</li>'
             + '</ul>',
-          '<strong>If you have a serious disease, in state of pregnancy or are top athlete <a href="#contacto">visit the clinic <span class="fa fa-plus-square text-success"></span></a> to be advised personally.</strong>'
+          '<strong>If you have a serious disease, are pregnant or are top athlete <a href="#contacto">please visit the clinic <span class="fa fa-plus-square text-success"></span></a> to be advised personally.</strong>'
         ],
         "reco1List": [
             'Never burn or caramelize foods.',
             'Always cook <strong>slowly and at low temperatures<strong>.',
             'You can add extra virgin olive oil to your vegetables or carbohydrates.',
             'Maybe you like to blast your vegetables with garlic or onion. Or add  cooked tomato  when you want. You can also add spices and herbs to enrich your dishes.',
-            'Protein: <strong>oven, grill, grid (without oil)</strong>.',
-            'Carbohydrates in boiling water (potatoes can be baked also: steam or on the grid with olive oil).',
-            'Steamed vegetables on the stove with oil olive, in boiling water or oven.',
+            'Protein: <strong>oven, grill, griddle (without oil)</strong>.',
+            'Carbohydrates in boiling water (potatoes can be baked also: steam or on the griddle with olive oil).',
+            'Steamed vegetables on the griddle with oil olive, in boiling water or oven.',
             'The legumes cooked in water.'
         ],
         "reco1": "Recommendations for cooking",
@@ -937,31 +943,31 @@ LITERALDATA = {
         "lista": "Your shopping list for the weekly menu",
         "creaPara": "Create a weekly menu for your shopping list with Manniello Method.",
         "crear": "Create a weekly menu ",
-        "intole": 'It is healthy <strong>not to eat intolerant foods</strong>. <br><br>If you want to know your intolerances, ' 
+        "intole": 'It is healthier <strong>not to eat foods you are intolerant to</strong>. <br><br>If you want to know your food intolerances, ' 
         + '<a href="#contacto">' 
         + '<strong>contact the clinic</strong></a> to make a food intolerance test.',
         "carbo2": "Can be mixed among themselves (no more than two) and with cooked vegetables",
         "carbo": "Carbohydrates",
-        "pesca": "Fishes",
-        "maris": "Sea foods",
-        "carne": "Meats",
-        "prote2": "Associating with cooked or raw vegetables. Do not mix a protein with one another",
+        "pesca": "Fish",
+        "maris": "Seafood",
+        "carne": "Meat",
+        "prote2": "Associate with cooked or raw vegetables. Do not mix one protein with another",
         "prote": "Protein",
-        "verdu2": "You can mix among themselves and with all, eaten raw or cooked.",
+        "verdu2": "You can mix vegetables with protein, carbohydrates and legumes, cooked with carbohydrates and legumes, raw or cooked with protein.",
         "verdu": "Vegetables",
         "fruta5": "Sweet fruits",
         "fruta4": "Acid fruits",
         "fruta3": "Neutral fruits",
-        "fruta2": "Eat between meals. Do not mix sweet with acid and neutral. The orange, melon, watermelon and pineapple, they should be consumed alone.",
+        "fruta2": "Eat fruit out of meal times. Do not mix sweet with acid and neutral. The orange, melon, watermelon and pineapple, they should be consumed alone.",
         "fruta": "<a href='http://www.youtube.com/watch?v=ogYrQxkoXbY' target='_blank' title='Watch video' data-toggle='tooltip' data-placement='bottom'>Fruits <span class='fa fa-eye'></span></a>",
-        "desa": "<a href='http://www.youtube.com/watch?v=WJKyZ4uDHnM' target='_blank' title='Watch video' data-toggle='tooltip' data-placement='bottom'>Breakfasts <span class='fa fa-eye'></span></a>",
+        "desa": "Breakfasts &nbsp;&nbsp;<a href='http://www.youtube.com/watch?v=WJKyZ4uDHnM' target='_blank' title='Watch video' data-toggle='tooltip' data-placement='bottom'><span class='fa fa-eye'></span></a>",
         "desa2": "You can drink coffee, tea, infusion, vegetable milk or only make fruit juice without mixing them.",
-        "legu2": "Associating with cooked vegetables.",
+        "legu2": "Associate with cooked vegetables.",
         "legu": "Legumes",
         "detras": "(behind the City Council)",
         "asoc": "Healthy menu",
-        "asoc2": "The method combines foods in a healthy way for better digestion and assimilation to avoid any <a href='http://www.youtube.com/watch?v=ollTyekTSK0' data-toggle='tooltip' data-placement='bottom' target='_blank' title='Wacth video'>fermentation <span class='fa fa-eye'></span></a>",
-        "asoc3": "Create a weekly menu by selecting the foods you don’t like or you can not (intolerances) from the following list:",
+        "asoc2": "The method combines foods in a healthy way for better digestion and assimilation to avoid any <a href='http://www.youtube.com/watch?v=ollTyekTSK0' data-toggle='tooltip' data-placement='bottom' target='_blank' title='Watch video'>fermentation <span class='fa fa-eye'></span></a>",
+        "asoc3": "Create a weekly menu by selecting the foods you don’t like or cannot tolerate from the following list:",
         "seguir": 'Follow the latest news in <a target="_blank" href="//www.manniellomethod.com">the Manniello Method web</a>.',
         "libroImg": "The book of Manniello method",
         "webTitle": "Click to access to the Manniello Method web",
@@ -970,7 +976,7 @@ LITERALDATA = {
         "enviar": "Send",
         "suscri": "Sign up for the Dr. Donato Manniello’s wellness information chain:",
         "empieza": "Start changing your life",
-        "verVideo": "Wacth video",
+        "verVideo": "Watch video",
         "parr1": '<p>In today’s society, <strong>quality of health and longevity</strong> are terms that are heard constantly. Current issues commonly affecting health today include excessive weight, obesity, major risk pathologies (diabetes, hypertension, etc.), depression, education, and multinational food and pharmaceutical companies…We can easily say that these issues are problems of our society, but we must also recognize that they are our own problems on a personal level and that we are the ones that are responsible for our choices. We choose to eat a certain food or not, we choose to exercise or not, we choose how we think, and we even choose to take a medication or not. We must recognize and take into account that the decision is always our own.</p>' 
                 + '<p>More than 1000 people have changed their lives using his method, eliminated diseases, increased their defenses, vitality and vigor. You can live healthier, stronger and without pain.</p><p>You can watch the video on <a href="#grupos">the food groups</a> and <a href="#noticias">' 
                 + 'sign up for the wellness news channel</a> to start changing your life. Follow the latest news on the ' 
@@ -1032,7 +1038,7 @@ LITERALDATA = {
         "modules": {
             "home": {
                 "home_title": "Enjoy your healthy menu",
-                "home_desc1": "<a href='#menu' class='nuevo-menu'><strong>Create a weekly menu</strong> <span class='fa fa-cutlery'></span></a> by selecting first the foods you don’t like or you can not (intolerances)."
+                "home_desc1": "<a href='#menu' class='nuevo-menu'><strong>Create a weekly menu</strong> <span class='fa fa-cutlery'></span></a> by selecting first the foods you don’t like or cannot tolerate."
             },
             "menu":{
                 "errorAlimentos": "To create the menu breakfasts, fruits, vegetables, carbohydrates and proteins are needed.",
@@ -1047,17 +1053,17 @@ LITERALDATA = {
                 "sabadoLetra": "S",
                 "domingoLetra": "Su",
                 "lunes": "Monday",
-                "martes": "Thuesday",
+                "martes": "Tuesday",
                 "miercoles": "Wednesday",
                 "jueves": "Thursday",
                 "viernes": "Friday",
                 "sabado": "Saturday",
                 "domingo": "Sunday",
                 "eldesayuno": "Breakfast",
-                "lamedia": "The mid morning",
+                "lamedia": "Mid morning",
                 "elalmuerzo": "Lunch",
                 "lamerienda": "Snack",
-                "lacena": "Diner",
+                "lacena": "Dinner",
                 "enviar": "Send",
                 "enviarEmail": "Send by email",
                 "imprimir": "Print menu",
@@ -1073,7 +1079,7 @@ LITERALDATA = {
                 "crudas": "Raw",
                 "proteinas": "proteins",
                 "and": "and",
-                "yogurSoja": "or soya yogurt ",
+                "yogurSoja": "or soy yoghurt ",
                 "acida": "acid",
                 "dulce": "sweet",
                 "neutra": "neutral",
@@ -1082,11 +1088,11 @@ LITERALDATA = {
                 "desayunoPreferido": "Breakfast of your choice",
                 "frutaNeutraPreferida": "The neutral fruit of your choice",
                 "frutaDulcePreferida": "The sweet fruit of your choice",
-                "frutaAcidaPreferida": "The sour fruit of your choice",
-                "mediaMañana": "Acidic fruit ({x}) with an infusion.",
-                "merienda": "Fruit ({x}) with an infusion.",
+                "frutaAcidaPreferida": "The acid fruit of your choice",
+                "mediaMañana": "Acid fruit ({x}) with an infusion.",
+                "merienda": "{x} fruit ({y}) with an infusion.",
                 "bebidasDesayuno": "", 
-                "otrosMedia": "Fruit (sour or sweet), {x}with an infusion.",
+                "otrosMedia": "Fruit (acid or sweet), {x}with an infusion.",
                 "otrasMeriendas": "Fruit sweet or neutral, {x}with an infusion.",
                 "almuerzo": "{x} vegetables ({y}) with {z}.",
                 "cena": "{x} vegetables ({y}) with {z} ({k}).",
@@ -1106,23 +1112,23 @@ LITERALDATA = {
                         "subtipo": ""
                     },
                     {
-                        "nombre": "Single sour fruit",
-                        "nombreDinamico": "Sour fruit ({x}) single",
+                        "nombre": "Single acid fruit",
+                        "nombreDinamico": "Acid fruit ({x}) single",
                         "tipo": "desayuno",
                         "subtipo": "fruta",
                         "lista": [
                             {"nombre": "Fruit", "tipo": "fruta", "subtipo": "ácida"}                        ]
                     },
                     {
-                        "nombre": "Whole grain crackers or cereals with soy yogurt",
+                        "nombre": "Whole grain crackers or cereals with soy yoghurt",
                         "tipo": "desayuno",
                         "subtipo": "",
                         "lista": [
-                            {"nombre": "Soy yogurt", "tipo": "desayuno"},
-                            {"nombre": "Whole grain crackers or cereals", "tipo": "desayuno"}                        ]
+                            {"nombre": "Soy yoghurt", "tipo": "desayuno"},
+                            {"nombre": "Wholegrain crackers or cereals", "tipo": "desayuno"}                        ]
                     },
                     {
-                        "nombre": "Whole grain bread with soy butter ",
+                        "nombre": "Wholegrain bread with soy butter ",
                         "tipo": "desayuno",
                         "subtipo": "",
                         "lista": [
@@ -1130,20 +1136,20 @@ LITERALDATA = {
                             {"nombre": "Soy butter", "tipo": "desayuno"}                        ]
                     },
                     {
-                        "nombreDinamico": "Sweet fruit ({x}) with soy yogurt",
-                        "nombre": "Sweet fruit with soy yogurt ",
+                        "nombreDinamico": "Sweet fruit ({x}) with soy yoghurt",
+                        "nombre": "Sweet fruit with soy yoghurt ",
                         "tipo": "desayuno",
                         "subtipo": "fruta",
                         "lista": [
-                            {"nombre": "Soy yogurt", "tipo": "desayuno"},
+                            {"nombre": "Soy yoghurt", "tipo": "desayuno"},
                             {"nombre": "Fruit", "tipo": "fruta", "subtipo": "dulce"}                        ]
                     },
                     {
-                        "nombre": "Whole grain bread with extra virgin olive oil ",
+                        "nombre": "Wholegrain bread with extra virgin olive oil ",
                         "tipo": "desayuno",
                         "subtipo": "",
                         "lista": [
-                            {"nombre": "Whole grain bread", "tipo": "desayuno"},
+                            {"nombre": "Wholegrain bread", "tipo": "desayuno"},
                             {"nombre": "extra virgin olive oil", "tipo": "desayuno"}                        ]
                     },
                     {
@@ -1203,14 +1209,14 @@ LITERALDATA = {
                         "cocida": false
                     },
                     {
-                        "nombre": "Lamb’s",
+                        "nombre": "Lambs lettuce",
                         "tipo": "verdura",
                         "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
                     {
-                        "nombre": "Arugula",
+                        "nombre": "Rocket",
                         "tipo": "verdura",
                         "subtipo": "verde",
                         "cruda": true,
@@ -1224,7 +1230,7 @@ LITERALDATA = {
                         "cocida": false
                     },
                     {
-                        "nombre": "Germinated",
+                        "nombre": "Sprouted seeds",
                         "tipo": "verdura",
                         "subtipo": "verde",
                         "cruda": true,
@@ -1653,7 +1659,7 @@ LITERALDATA = {
                         "subtipo": "carne"
                     },
                     {
-                        "nombre": "Porc",
+                        "nombre": "Pork",
                         "tipo": "proteina",
                         "subtipo": "carne"
                     },
@@ -1663,7 +1669,7 @@ LITERALDATA = {
                         "subtipo": "carne"
                     },
                     {
-                        "nombre": "Spelled bread",
+                        "nombre": "Spelt bread",
                         "tipo": "carbohidrato",
                         "subtipo": "panIntegral",
                         "visible": false
@@ -1687,7 +1693,7 @@ LITERALDATA = {
                         "visible": false
                     },
                     {
-                        "nombre": "Cuscus",
+                        "nombre": "Couscous",
                         "tipo": "carbohidrato",
                         "subtipo": ""
                     },
@@ -1697,7 +1703,7 @@ LITERALDATA = {
                         "subtipo": ""
                     },
                     {
-                        "nombre": "Beet",
+                        "nombre": "Beetroot",
                         "tipo": "carbohidrato",
                         "subtipo": ""
                     },
@@ -1748,7 +1754,7 @@ LITERALDATA = {
                         "subtipo": ""
                     },
                     {
-                        "nombre": "Patatoes",
+                        "nombre": "Potatoes",
                         "tipo": "carbohidrato",
                         "subtipo": ""
                     }
@@ -1760,7 +1766,7 @@ LITERALDATA = {
     "es": {
         "scrollDown": "Desplaza hacia abajo.",
         "fullscreen": '<strong>Instala la Aplicación</strong> con la opción de menú <strong>Añadir a pantalla de inicio</strong> <span class="fa fa-arrow-circle-down fa-lg"></span>',
-        "libroSrc": "libro-metodo.png",
+        "libroSrc": "libro-metodo-es.png",
         "telefo": "Llamar para pedir cita",
         "mapa": "Ruta para llegar a la clínica",
         "pedirCita": "Enviar email para pedir cita",
@@ -1887,6 +1893,12 @@ LITERALDATA = {
                 },
                 {
                     "language":"Français"
+                },
+                {
+                    "language":"Aleman"
+                },
+                {
+                    "language":"Ruso"
                 }
         ],
         "mainMenu": {
@@ -2633,6 +2645,1781 @@ LITERALDATA = {
                     {
                         "nombre": "Patatas",
                         "tipo": "carbohidrato",
+                        "subtipo": ""
+                    }
+                ]
+ 
+            }
+        }
+    },
+    "de": {
+        "scrollDown": "Nach unten scrollen.",
+        "fullscreen": '<strong>Instala la Aplicación</strong> con la opción de menú <strong>Añadir a pantalla de inicio</strong> <span class="fa fa-arrow-circle-down fa-lg"></span>',
+        "libroSrc": "libro-metodo-de.png",
+        "telefo": "Anrufen und um Termin bitten",
+        "mapa": "Wegbeschreibung zur Klinik",
+        "pedirCita": "Termin per E-Mail anfragen",
+        "visita": "Die Klinik besuchen",
+        "linkLibro": "http://www.amazon.es/s/ref=nb_sb_noss?field-keywords=Donato%20Manniello",
+        "linkLibroKindle": "http://www.amazon.es/s/ref=nb_sb_noss?field-keywords=Donato%20Manniello%20Kindle",
+        "myemail": "info@metodomanniello.com",
+        "contacta": "Kontakt",
+        "doctor3": "<p>Entsprechend seiner Philosophie von der ganzheitlichen Behandlung des Patienten erwachte bei ihm sehr schnell das Interesse für die verschiedenen Arten der Alternativen Medizin, so dass er  beschloss, sich intensiv damit auseinander zu setzen und sie zu praktizieren.<br>Seit 20 Jahren forscht er im Bereich Ernährung und erprobt und analysiert verschiedene Ernährungsformen.</p><p>Dr. Donato Manniello beherrscht sieben Sprachen und vermittelt seine Kenntnis mit grosser Leidenschaft mittels Kursen und Vorträgen in verschiedenen Teilen der Welt. .</p>",
+        "doctor2": '<p>Dr.Donato Alberto Manniello hat an der Universität von Lugano seine Osteopathie-Ausbildung absolviert, in Belgien die Ausbildung zum Physiotherapeuten gemacht und sich in Paris auf Traditionelle Chinesische Medizin spezialisiert. Er besitzt einen Master für Ayurvedische Medizin, ist Experte für Gesunde Lebensweise (Health Coach) bei der Ärztekammer der Provinz Málaga und hat den von der Universität Miguel de Cervantes in Valldolid ausgestellten Titel eines Homöopathen. Zudem ist er Mitglied von Slow Food International. Als wissenschaftlicher Forscher protokollierte er vier Jahre lang seine eigene Methode und beschloss dann, sie in Buchform zu veröffentlichen: "<a target="_blank" href="http://www.amazon.es/s/ref=nb_sb_noss?field-keywords=Donato%20Manniello" data-toggle="tooltip" data-placement="bottom" title="Hier klicken, um das Buch zu kaufen">Die Methode Manniello - Nimm mich mit und ich verändere dein Leben</a>".</p>',
+        "doctor": "Dr. Donato Manniello Ph.D.",
+        "trata": "Holistische Behandlung zur Erlangung von ganzheitlicher Gesundheit, ganzheitliche Behandlung für die integrale Gesundheit des Patienten",
+        "trata2": "Mechanische, energetische, funktionelle und emotionale Behandlung, denn wir sind alle eins.",
+        "clinica": "Klinik für Alternative Medizin",
+        "quote": '<p>“Die Kunst der manuellen Therapie ist sehr alt. Ich empfinde grosse Hochachtung für ihre Entdecker wie auch für diejenigen, die sie Generationen für Generation weitergeben werden und deren Arbeit zur Entwicklung der Heilkunst beitragen wird.” <small>Hyppokrates (435 vor Chr.)</small></p>',
+        "reco2List": [
+            'Es ist nicht empfehlenswert die beiden Kohlehydrate zu mischen oder verschiedene Proteinen zu kombinieren.',
+            'Verzehre <strong>Obst stets ausserhalb der Mahlzeiten</strong>. Der ideale Zeitpunkt ist vormittags oder nachmittags, bzw. als einziges Nahrungsmittel beim Frühstück (Süsse, neutrale oder saure Früchte dürfen untereinander nicht gemischt werden).',
+            'Nimm saures oder halbsaures Obst stets am Morgen oder Nachmittag zu dir.',
+            'Kombiniere Proteinen immer mit rohem oder gegartem Gemüse.',
+            'Kombiniere Kohlenhydrate immer mit gegartem Gemüse. Kürbis, Karottten,Artischocken, Blumenkohl, Erbsen, grüne Bohnen, Mais und Rote Beete sind Kohlehydrate und kein Gemüse</strong>).',
+            'Kombiniere Hülsenfruchten immer mit gegartem Gemüse.' 
+        ],
+        "reco3List": [
+          'Konsumiere vorzugsweise reifes Saisonobst <strong>aus biologischem Anbau.</strong>.',
+          'Verzehre vorzugsweise Vollkornmehl und Vollkornreis <strong></strong>.',
+          'Es ist ratsam, Fisch beim Fischhändler zu kaufen, freilaufendes Geflügel und Fleisch vom Biobauern.',
+          'Trinke zimmerwarmes Wasser (zwei Liter pro Tag) und ausserhalb der Mahlzeiten. Vermeide kalte Getränke während der Mahlzeiten.',
+          'Fülle deinen Teller nur einmal und kaue alle Lebensmittel gründlich.',
+          'Deine tägliche Ernährung sollte generell wie folgt zusammen gesetzt sein:'
+            + '<ul>'
+             + '<li><strong>60% Gemüse und Obst</strong>: je ein Stück Obst am Vormittag und Nachmittag, je zwei Gemüsesorten mittags und abends.</li>'
+             + '<li><strong>20% Zerealien und Kohlehydrate</strong>: Morgens und dreimal pro Woche zum Mittagessen.</li>'
+             + '<li><strong>20% Proteinen</strong>: stets zum Abendessen.</li>'
+            + '</ul>',
+          '<strong>Wenn du an einer schweren Krankheit leidest, schwanger bist oder Leistungssport treibst, solltest du <a href="#contacto">die Klinik kontaktieren <span class="fa fa-plus-square text-success"></span></a> und um individuelle Beratung bitten.</strong>'
+        ],
+        "reco1List": [
+            'Lasse Lebensmittel grundsätzlich nicht anbrennen oder karamellisieren.',
+            'Gare Lebensmittel nie bei hoher Temperatur, sondern langsam und bei <strong>Niedrigtemperatur</strong>.</li>',
+            'Du kannst deinem Gemüse wie auch den Kohlehydraten gern Olivenöl Virgen Extra zufügen.</li>',
+            'Du kannst dein Gemüse mit Zwiebeln  oder Knoblauch anbraten. Zur Verfeinerung der Gerichte kannst du ausserdem gekochte Tomaten oder Kräuter hinzu fügen.</li>',
+            'Proteinen kannst du <strong>im Ofen oder auf dem Grill zubereiten ohne Öl)</strong>.</li>',
+            '<strong>Dünste</strong> die Kohlehydrate. Kartoffeln können auch im Ofen oder mit Olivenöl in der Pfanne gegart werden, aber nie mehr als zwei Stück.</li>',
+            'Dünste dein Gemüse oder gare es <strong>mit Dampf, im Ofen oder auf dem Grill</strong> mit Olivenöl.</li>',
+            'Koche Gemüse in sprudelndem Wasser.'
+        ],
+        "reco1": "Tipps zur Zubereitung der Nahrungsmittel",
+        "reco2": "Tipps zur Kombination von Nahrungsmitteln",
+        "reco3": "Tipps für die gesunde Ernährung",
+        "detras": "(hinter dem Rathaus)",
+        "lista": "Deine wöchentliche Einkaufsliste",
+        "creaPara": "Stelle deinen Wochenspeiseplan zusammen, um deine Einkaufsliste nach der Methode Manniello aufschreiben zu können.",
+        "crear": "Erstelle den Ernährungsplan für eine Woche",
+        "intole": 'Es ist gesünder <strong>auf nicht tolerierte Lebensmittel zu verzichten</strong>. ' 
+        + '<br><br>Wenn du wissen willst, welche Nahrungsmittel du nicht verträgst, <a href="#Kontakt">' 
+        + '<strong>Kontaktiere die Klinik</strong></a> um den Intoleranztest zu machen.',
+        "carbo2": "Sie können miteinander kombiniert werden (nicht mehr als zwei) und mit gegartem Gemüse.",
+        "carbo": "Kohlehydrate",
+        "pesca": "Fisch",
+        "maris": "Meeresfrüchte",
+        "carne": "Fleisch",
+        "prote2": "Kombiniere sie nicht untereinander, sondern mit gegartem oder rohen Gemüse.",
+        "prote": "Proteinen",
+        "verdu2": "Sie können untereinander und mit allem anderen gemischt werden; verzehre sie gegart oder rohes.",
+        "verdu": "vegetal",
+        "fruta5": "Süsses Obst",
+        "fruta4": "Saures Obst",
+        "fruta3": "Neutrales Obst",
+        "fruta2": "Verzehre es ausserhalb der Mahlzeiten. Mische süsse Früchte nicht mit sauren oder  neutralen. Verzehre Orangen, Melonen, Wassermelonen und Ananas stets einzeln.",
+        "fruta": "<a href='http://www.youtube.com/watch?v=ogYrQxkoXbY' target='_blank' title='Video anschauen' data-toggle='Tooltipp' data-placement='unten'>Früchte <span class='fa fa-eye'></span></a>",
+        "desa": "<a href='http://www.youtube.com/watch?v=WJKyZ4uDHnM' target='_blank' title='Video anschauen' data-toggle='tooltip' data-placement='bottom'>Frühstück <span class='fa fa-eye'></span></a>",
+        "desa2": "Zum Frühstück kannst du Kaffee, Tee oder vegetarische Milch trinken oder nur einen Obstsaft zu dir nehmen, ohne süsses und saures Obst zu vermischen.",
+        "legu2": "Sie können mit gegartem Gemüse kombiniert werden.",
+        "legu": "Hülsenfruchten",
+        "asoc": "Gesunder Speiseplan",
+        "asoc2": "Die Methode stellt Nahrungsmittel auf gesunde Weise zusammen und begünstigt eine bessere Verdauung und Aufnahme <a href='http://www.youtube.com/watch?v=ollTyekTSK0' data-toggle='tooltip' data-placement='bottom' target='_blank' title='Video anschauen'>den Gärprozess <span class='fa fa-eye'></span></a>",
+        "asoc3": "Stelle deinen Wochenspeiseplan zusammen und streiche aus der folgenden Liste alle Nahrungsmittel, die du nicht magst oder verträgst (Intoleranz):",
+        "seguir": 'Ausserdem kannst du die neusten Nachrichten verfolgen in <a target="_blank" href="//www.metodomanniello.com">der Web der Methode Manniello</a>.',
+        "libroImg": "Das Buch über die Methode Manniello",
+        "webTitle": "Anklicken, um zur Web Die Methode Manniello zu gelangen",
+        "web": "metodomanniello.com",
+        "E-Mail": "Gib deine E-Mail ein",
+        "enviar": "Senden",
+        "suscri": "Melde dich im Kanal der Gesundheitstipps von Dr. Donato Manniello an:",
+        "empieza": "Fange gleich an dein Leben zu verändern",
+        "verVideo": "Video anschauen",
+        "parr1": '<p><strong>Die Begriffe beste Gesundheit und ein langes Leben</strong> sind heute in aller Munde. ' 
+                + 'Gleichzeitig werden wir mit aktuellen Phänomenen konfrontiert, darunter Übergewicht, Fettsucht + den grossen Risikofaktoren (Cholesterin, Bluthochdruck, Diabetes), mit Depressionen + Bildung. Wir können ganz einfach sagen, dass diese Phänomene ein Problem der heutigen Gesellschaft sind, ' 
+                + 'sollten dabei aber nicht vergesssen, dass wir selbst ebenfalls Entscheidungen treffen.</p><p>Wir entscheiden, ob wir ein bestimmtes Nahrungsmittel essen wollen oder nicht,ob wir Sport treiben wollen oder nicht, auf die eine ode randere Art denken wollen und sogar, ob wir ein bestimmtes Medikament einnehmen oder nicht. Am Ende müssen wir uns darüber bewusst sein, dass <strong>die Entscheidung ' 
+                + 'immer unsere  eigene ist</strong>, und dass jegliche Veränderung in uns selbst beginnt.</p>' 
+                + '<p>Über 1000 Menschen haben ihr Leben geändert, weil sie diese Methode anwenden. Sie haben Krankheiten überwunden und ihre Abwehrkräfte, ihre Vitalität und ihre Spannkraft erhöht. Auch du kannst gesünder, mit mehr Kraft und ohne Schmerzen leben.</p><p>Sieh im <a href="#grupos">Video über Nährungsmittelgruppen nach </a> und <a href="#noticias">' 
+                + 'melde dich im Kanal für gesunde Neuigkeiten ein</a> um gleich damit zu beginnen, dein Leben zu ändern. Folge den letzten ' 
+                + ' Nachrichten in <a target="_blank" href="//www.metodomanniello.com">der Web zur Methode Manniello</a>.</p>',
+        "linkComprar": "Anklicken, um das Buch zu kaufen",
+        "tambien": "Auch in",
+        "kindle": "Kindl-Version",
+        "crear": "Gestalte deinen Speiseplan",
+        "libro": "Das Buch",
+        "cambiare": "Ich werde dein Leben ändern",
+        "llevame": "Nimm mich mit",
+        "comprar": "Buch kaufen",
+        "title": "Methode Manniello - beste Gesundheit und langes Leben",
+        "pasos2": "Gesunde Lebensweise, <a href='http://www.youtube.com/watch?v=w4Ggo8uJIwY' target='_blank' data-toggle='tooltip' data-placement='bottom' title='Video anschauen'>Lebensmittelintoleranz <span class='fa fa-eye'></span></a> und Alternativmedizin.",
+        "appTitle": "Die Methode Manniello",
+        "pasos": "Grundlegende Schritte um beste Gesundheit und ein langes Leben zu erreichen",
+        "appUrl": "http://www.metodomanniello.com",
+        "appName": "Beste Gesundheit und ein langes Leben",
+        "appDesc": "Das Buch über die grundlegenden Schritte, die dein Leben verändern - Gesunde Lebensweise - Lebensmittelintolreranz - Alternativmedizin",
+        "Enviando": "Sendevorgang",
+        "EnvioRealizado": "Dein Speiseplan wurde erfolgreich gesendet.",
+        "NoInternetConection": "Es konnte keine Internetverbindung aufgebaut werden.",
+        "SuscripcionRealizada": "Deine Anmeldung war erfolgreich. In Kürze erhältst du Nachricht.",
+        "languages": [
+                {
+                    "language":"English"
+                },
+                {
+                    "language":"Español"
+                },
+                {
+                    "language":"Français"
+                },
+                {
+                    "language":"Deutsch"
+                },
+                {
+                    "language":"pусский"
+                }
+        ],
+        "mainMenu": {
+            options: [
+                {
+                    "option":"Das Buch"
+                },
+                {
+                    "option":"Nahrungsmittelgruppen"
+                },
+                {
+                    "option":"Gesunde Kombinationen"
+                },
+                {
+                    "option":"Dein gesunder Speiseplan"
+                },
+                {
+                    "option":"Die Klinik"
+                },
+                {
+                    "option":"Kontakt"
+                }
+            ]
+        },
+        "modules": {
+            "home": {
+                "home_title": "Dein gesunder Speiseplan",
+                "home_desc1": "Um <a href='#menu' class='nuevo-menu'><strong>deinen Speiseplan zu entwerfen</strong> <span class='fa fa-cutlery'></span></a> markiere zunächst die Lebensmittel, die du nicht magst oder nicht verträgst (Intoleranz) in der vorigen Liste aus.",   
+            },
+            "menu":{
+                "errorAlimentos": "Um deinen Speiseplan aufzustellen werden gebraucht: Obst, Frühstück, Gemüse, Kohlehydrate und Proteinen.",
+                "leyenda": "Hier klicken <span class='fa fa-heart-o fa-lg leyenda'></span> um mehr Alternativen zu erhalten",
+                "enviaatu": "Gib deine E-Mail-Adresse an, um den gesunden Speiseplan zu erhalten:",
+                "email": "Füge deine E-Mail-Adressse ein",
+                "lunesLetra": "M",
+                "martesLetra": "Di",
+                "miercolesLetra": "M",
+                "juevesLetra": "Do",
+                "viernesLetra": "F",
+                "sabadoLetra": "Sa",
+                "domingoLetra": "So",
+                "lunes": "Montag",
+                "martes": "Dienstag", 
+                "miercoles": "Mittwoch", 
+                "jueves": "Donnerstag",
+                "viernes": "Freitag",
+                "sabado": "Samstag",
+                "domingo": "Sonntag",
+                "eldesayuno": "Frühstück",
+                "lamedia": "Vormittags",
+                "elalmuerzo": "Mittagessen",
+                "lamerienda": "Nachmittags",
+                "lacena": "Abendessen",
+                "enviar": "Speiseplan senden",
+                "enviarEmail": "E-Mail senden",
+                "imprimir": "Speiseplan drucken",
+                "verdura": "Gemüse", 
+                "proteina": "Proteinen",
+                "carbohidrato": "Kohlehydrate",
+                "legumbre": "Hülsenfruchten",
+                "fruta": "Obst",
+                "desayuno": "Frühstück",
+                "cocidas": "Gekochtes",
+                "raciones": " mal",
+                "racion": " mal",
+                "crudas": "rohes",
+                "proteinas": "Proteinen",
+                "and": "und",
+                "yogurSoja": "Soja-Joghurt ",
+                "acida": "Sauer",
+                "dulce": "Süsses",
+                "neutra": "Neutrales",
+                "panIntegral": " und du darfst ",
+                "home_title": "Dein gesunder Speiseplan",
+                "desayunoPreferido": "Frühstück nach deinem Geschmack",
+                "frutaNeutraPreferida": "Neutrales Obst nach Wahl",
+                "frutaDulcePreferida": "Süsses Obst nach Wahl",
+                "frutaAcidaPreferida": "Saures Obst nach Wahl",
+                "mediaMañana": "Saures Obst ({x}) und Tee.",
+                "merienda": "{x} Obst ({y}) und Tee.",
+                "bebidasDesayuno": "",
+                "otrosMedia": "Obst (sauer oder süss), {x}und Tee.",
+                "otrasMeriendas": "Süsses oder neutrales Obst, {x}und Tee.",
+                "almuerzo": "{x} Gemüse ({y}) mit{z}.",
+                "cena": "{x} Gemüse ({y}) mit {z} ({k}).",
+                "verdurasCocidasPreferidas": "Gekochtes Gemüse nach Wahl",
+                "verdurasCrudasPreferidas": "Rohes Gemüse nach Wahl",
+                "meriendaPreferida": "Was du magst",
+                "carnePreferida": "Fleisch nach Wahl",
+                "pescadoPreferido": "Fisch nach Wahl",
+                "legumbrePreferida": "Hülsenfruchten nach Wahl",
+                "hidratosPreferidos": "Kohlehydrate nach Wahl",
+                "proteinasPreferidas": "Proteinen nach Wahl",
+                "alimentos":[
+                    {
+                        "nombre": "Kichererbsen",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Nur saures Obst",
+                        "nombreDinamico": "Nur saures Obst ({x}) ",
+                        "tipo": "desayuno",
+                        "subtipo": "fruta",
+                        "lista": [
+                            {"nombre": "Obst", "tipo": "fruta", "subtipo": "ácida"}
+                        ]
+                    },
+                    {
+                        "nombre": "Vollkornkekse oder Müsli mit Soja-Joghurt",
+                        "tipo": "desayuno",
+                        "subtipo": "",
+                        "lista": [
+                            {"nombre": "Soja-Joghurt", "tipo": "desayuno"},
+                            {"nombre": "Vollkornkekse oder Müsli", "tipo": "desayuno"}
+                        ]
+                    },
+                    {
+                        "nombre": "Vollkornbrot mit Sojabutter",
+                        "tipo": "desayuno",
+                        "subtipo": "",
+                        "lista": [
+                            {"nombre": "Vollkornbrot", "tipo": "desayuno"},
+                            {"nombre": "Sojabutter", "tipo": "desayuno"}   
+                                             ]
+                    },
+                    {
+                        "nombreDinamico": "Süsses Obst ({x}) mit Soja-Joghurt",
+                        "nombre": "Süsses Obst mit Soja-Joghurt",
+                        "tipo": "desayuno",
+                        "subtipo": "fruta",
+                        "lista": [
+                            {"nombre": "Soja-Joghurt", "tipo": "desayuno"},
+                            {"nombre": "Obst", "tipo": "fruta", "subtipo": "dulce"}                        ]
+                    },
+                    {
+                        "nombre": "Vollkornbrot mit Olivenöl Virgen Extra",
+                        "tipo": "desayuno",
+                        "subtipo": "",
+                        "lista": [
+                            {"nombre": "Vollkornbrot", "tipo": "desayuno"},
+                            {"nombre": "Olivenöl Virgen Extra", "tipo": "desayuno"}                        ]
+                    },
+                    {
+                        "nombre": "Bohnenkerne",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Linsen",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Rote Linsen",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Gelbe Linsen",
+                        "tipo": "verdura",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Weisse Bohnen",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Gefleckte Bohnen",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Rote Bohnen",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Fenchel",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },                    
+                    {
+                        "nombre": "Kopfsalat",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Endivien",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Feldsalat",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Rukola",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Gurke",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Keime",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Kohl",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Pilze",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Mangold",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Spinat",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Paprika",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Lauch",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Rettich",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Aubergine",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Grüne Bohnen",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Sellerie",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Golddistel",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Spargel",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Zucchini",
+                        "tipo": "verdura",
+                        "subtipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Broccoli",
+                        "tipo": "verdura",
+                        "subtipo": "verde"
+                    },
+                    {
+                        "nombre": "Erdnüsse",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Pistazien",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Pinienkerne",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Haselnüsse",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Nüsse",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Mandeln",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    /*{
+                        "nombre": "Avocado",
+                        "tipo": "fruta"
+                        "subtipo": "neutra"
+                    },*/
+                    {
+                        "nombre": "Kastanien",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Kokosnuss",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },                    
+                    {
+                        "nombre": "Erdbeeren",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Nísperos",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Pfirsich",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Mandarinen",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Himbeeren",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Ananas",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Grüne Äpfel",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    /*{
+                        "nombre": "Maracuyá",
+                        "tipo": "fruta"
+                        "subtipo": "ácida"
+                    },*/
+                    {
+                        "nombre": "Grapefruit",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Brombeeren",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Mango",
+                        "tipo": "Obsta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Kiwi",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Orange",
+                        "tipo": "fruta",
+                        "fueraDelDesayuno": true,
+                        "subtipo": "ácida"
+                    },
+                    /*{
+                        "nombre": "Tomate",
+                        "tipo": "fruta"
+                        "subtipo": "ácida"
+                    },*/
+                    {
+                        "nombre": "Aprikose",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Pflaumen",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Datteln",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Apfel",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Wassermelone",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Granatapfel",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Feigen",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Banane",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Melone",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Trauben",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Kirschen",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Chirimoya",
+                        "tipo": "Obsta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Birnen",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Eier",
+                        "tipo": "proteina",
+                        "subtipo": "huevos"
+                    },
+                    {
+                        "nombre": "Seitan",
+                        "tipo": "proteina",
+                        "subtipo": "vegetal"
+                    },
+                    {
+                        "nombre": "Tofu",
+                        "tipo": "proteina",
+                        "subtipo": "vegetal"
+                    },
+                    {
+                        "nombre": "Thunfisch",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Anchovis",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Seeteuel",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Dorade",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Tintenfisch",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Sepia",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Sardinen",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Steinbutt",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Seezunge",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Lachs",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Makrele",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Tintenfisch",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Kabeljau",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Seehecht",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Wolfsbarsch",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Forelle",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Herzmuscheln",
+                        "tipo": "proteina",
+                        "subtipo": "Meeresfrüchte"
+                    },
+                    {
+                        "nombre": "Miesmuscheln",
+                        "tipo": "proteina",
+                        "subtipo": "Meeresfrüchte"
+                    },
+                    {
+                        "nombre": "Austern",
+                        "tipo": "proteina",
+                        "subtipo": "Meeresfrüchte"
+                    },
+                    {
+                        "nombre": "Garnele",
+                        "tipo": "proteina",
+                        "subtipo": "Meeresfrüchte"
+                    },
+                    {
+                        "nombre": "Krebs",
+                        "tipo": "proteina",
+                        "subtipo": "Meerefrüchte"
+                    },
+                    {
+                        "nombre": "Languste",
+                        "tipo": "proteina",
+                        "subtipo": "Meeresfrüchte"
+                    },
+                    {
+                        "nombre": "Rindfleisch",
+                        "tipo": "proteina",
+                        "subtipo": "Fleisch"
+                    },
+                    {
+                        "nombre": "Lammfleisch",
+                        "tipo": "proteina",
+                        "subtipo": "Fleische"
+                    },
+                    {
+                        "nombre": "Pute",
+                        "tipo": "proteina",
+                        "subtipo": "Fleisch"
+                    },
+                    {
+                        "nombre": "Geflügel",
+                        "tipo": "proteina",
+                        "subtipo": "Fleisch"
+                    },
+                    {
+                        "nombre": "Schweinefleisch",
+                        "tipo": "proteina",
+                        "subtipo": "Fleisch"
+                    },
+                    {
+                        "nombre": "Kaninchen",
+                        "tipo": "proteina",
+                        "subtipo": "Fleisch"
+                    },
+                    {
+                        "nombre": "Dinkelbrot",
+                        "tipo": "carbohidrato",
+                        "subtipo": "Vollkornbrot",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Roggenbrot",
+                        "tipo": "carbohidrato",
+                        "subtipo": "Vollkornbrot",
+                        "sichtbar": false
+                    },
+                    {
+                        "nombre": "Weizenbrot",
+                        "tipo": "carbohidrato",
+                        "subtipo": "Vollkornbrot",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Haferbrot",
+                        "tipo": "carbohidrato",
+                        "subtipo": "Vollkornbrot",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "CousCous",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Blumenkohl",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Rote Beete",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Pasta",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Kürbis",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Erbsen",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Artischocken",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Karotten",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Weisser Reis",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Vollkornreis",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Soja",
+                        "tipo": "legumbre",
+                        "subtipo": "soja",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Mais",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Kartoffeln",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    }
+                ]
+ 
+            }
+        }
+    },
+    ﻿"ru": {
+        "scrollDown": "Перейти вниз.",
+        "fullscreen": '<strong>Instala la Aplicación</strong> con la opción de menú <strong>Añadir a pantalla de inicio</strong> <span class="fa fa-arrow-circle-down fa-lg"></span>',
+        "libroSrc": "libro-metodo-ru.png",
+        "telefo": "Позвонить и записаться на прием",
+        "mapa": "Схема проезда",
+        "pedirCita": "Связаться по электронной почте",
+        "visita": "Посетить клинику",
+        "linkLibro": "http://www.amazon.es/s/ref=nb_sb_noss?field-keywords=Donato%20Manniello",
+        "linkLibroKindle": "http://www.amazon.es/s/ref=nb_sb_noss?field-keywords=Donato%20Manniello%20Kindle",
+        "myemail": "info@metodomanniello.com",
+        "contacta": "Контакты",
+        "doctor3": "<p>Его философия всесторонне подходить к лечению пациента пробуждает интерес к разным видам альтернативной медицины. После этого он принимает решение o более глубоком их изучении и практике.<br>Вот уже более 20 лет он проводит исследования о питании и анализирует различные методы.</p><p>Он говорит на семи языках и проводит конференции по всему миру, с большим увлечением передавая свои знания.</p>",
+        "doctor2": '<p>Доктор Донато Альберто Манниэлло обладает дипломом Университета L.U. de S. Лугано (Швейцария) по специальности Остеопатия. Дипломированный специалист по физиотерапии (в Бельгии), получил специальность по направлению Традиционная китайская медицина в Париже. Обладает магистерской степенью в Традиционной индийской медицине аюрведа, является экспертом по здоровому образу жизни (Health Coach) Почетной официальной коллегии врачей региона Малаги (Испания) и обладает дипломом специалиста по направлению гомеопатия, выданным Университетом Мигелем де Сервантес г. Вальядолид (Испания). Также является членом “Slow Food International” (направление медленного питания). Научный исследователь, утверждает свой собственный метод четыре года назад и принимает решение распространить его через этот труд: "<a target="_blank" href="http://www.amazon.es/s/ref=nb_sb_noss?field-keywords=Donato%20Manniello" data-toggle="tooltip" data-placement="bottom" title="Нажмите, чтобы купить книгу">El método Manniello, llévame contigo y cambiaré tu vida</a>".</p>',
+        "doctor": "Д-р Донато Манниэлло, кандидат наук",
+        "trata": "Холистический подход к целостному лечению пациента",
+        "trata2": "Лечение механики, энергетики, функций и эмоций человека как “одного целого”.",
+        "clinica": "Клиника альтернативной медицины",
+        "quote": '<p>“Искусство мануальной терапии - это древнее искусство. Я отношусь с глубочайшим уважением к тем, кто были его первооткрывателями, и к тем, кто способствует своими открытиями дальнейшему развитию этого искусства.” <small>Гиппократ (435 д.н.э.)</small></p>',
+        "reco2List": [
+            'Рекомендуется не смешивать больше двух углеводов и различные виды белков.',
+            'Употребляйте <strong>фрукты в перерывах между едой</strong>. Идеальными периодами считаются второй завтрак, полдник, или принимать на завтрак только фрукты (не смешивайте сладкие, нейтральные или кислые фрукты).',
+            'Ешьте кислые или полукислые фрукты всегда утром, а сладкие - утром или вечером.',
+            'Сочетайте всегда белки с сырыми или вареными овощами.',
+            'Сочетайте всегда углеводы с вареными овощами (<strong>тыква, морковь, артишок, цветная капуста, горох, фасоль, кукуруза и свекла - это углеводы, а не овощи</strong>).',
+            'Совмещайте всегда бобовые с вареными овощами.' 
+        ],
+        "reco3List": [
+          'Предпочтительней употреблять зрелые фрукты <strong>текущего сезона</strong>.',
+          'Предпочтительней употреблять муку и рис <strong>цельнозерновые</strong>.',
+          'Предпочтительней покупать свежую рыбу, мясо курицы вольного выгула и экологически чистое мясо.',
+          'Пейте теплую воду (2 литра максимум в день) между приемами пищи. Не пейте холодные напитки во время приема пищи.',
+          'Кладите себе порцию еды только один раз и тщательно пережевывайте пищу.',
+          'В общем, употребляйте каждый день:'
+            + '<ul>'
+             + '<li><strong>60% овощей и фруктов</strong>: один любой фрукт во время второго завтрака, другой - в полдник, два вида овощей во время обеда, и другие два - во время ужина.</li>'
+             + '<li><strong>20% злаковых и углеводов </strong>: утром и три раза в неделю во время обеда.</li>'
+             + '<li><strong>20% белка</strong>: всегда во время ужина.</li>'
+            + '</ul>',
+          '<strong>Если вы страдаете серьезным заболеванием, беременны или профессионально занимаетесь спортом <a href="#contacto">свяжитесь с клиникой <span class="fa fa-plus-square text-success"></span></a> чтобы получить индивидуальную помощь.</strong>'
+        ],
+        "reco1List": [
+            'Никогда не пережаривайте или карамелизируйте пищу.',
+            'Никогда не готовьте пищу при высокой температуре: всегда готовьте ее медленно и при <strong>низкой температуре</strong>.</li>',
+            'Можно добавлять оливковое нерафинированное масло экстра-класса в блюда из овощей или углеводов.</li>',
+            'Можете обжарить овощи с чесноком или луком. Также можно добавить помидор (всегда вареный) или специи, чтобы обогатить вкус.</li>',
+            'Белки можно приготовить <strong>в духовке, на решетке для жарения, на гриль-сковороде (без масла)</strong>.</li>',
+            '<strong>Доводите до кипения</strong> углеводы. Картофель также можно приготовить в духовке или обжарить с малыми количеством оливкогового масла.</li>',
+            'Доводите до кипения овощи или готовьте их <strong>на пару, в духовке или на гриль-сковороде</strong> с оливковым маслом.</li>',
+            'Используйте бобовые, доведенные до кипения.'
+        ],
+        "reco1": "Рекомендации для приготовления пищи",
+        "reco2": "Рекомендации для сочетания продуктов",
+        "reco3": "Рекомендации для здорового питания",
+        "detras": "(за зданием мэрии)",
+        "lista": "Ваш список покупок для еженедельного меню",
+        "creaPara": "Создайте свое меню на каждую неделю и получите список покупок с помощью Метода Манниэлло.",
+        "crear": "Создать свое еженедельное меню",
+        "intole": 'Полезно для здоровья <strong>не употреблять продукты в случае непереносимости</strong>. ' 
+        + '<br><br>Если хотите узнать вашу непереносимость, свяжитесь с <a href="#contacto">' 
+        + '<strong>клиникой</strong></a> для прохождения теста на пищевую непереносимость.',
+        "carbo2": "Можно сочетать их между собой (не более двух видов) и с вареными овощами.",
+        "carbo": "Углеводы",
+        "pesca": "Рыба",
+        "maris": "Морепродукты",
+        "carne": "Мясо",
+        "prote2": "Не сочетайте их между собой, а только с вареными и сырыми овощами.",
+        "prote": "Белки",
+        "verdu2": "Можно сочетать их между собой и со всем остальным; употребляйте их вареными или сырыми.",
+        "verdu": "Овощи",
+        "fruta5": "Сладкие фрукты",
+        "fruta4": "Кислые фрукты",
+        "fruta3": "Нейтральные фрукты",
+        "fruta2": "Употребляйте их между приемами пищи. Не смешивайте сладкие, кислые или нейтральные. Принимайте в пищу апельсин, дыню, арбуз и ананас всегда отдельно.",
+        "fruta": "<a href='http://www.youtube.com/watch?v=ogYrQxkoXbY' target='_blank' title='Смотреть видео' data-toggle='tooltip' data-placement='bottom'>Фрукты <span class='fa fa-eye'></span></a>",
+        "desa": "<a href='http://www.youtube.com/watch?v=WJKyZ4uDHnM' target='_blank' title='Смотреть видео' data-toggle='tooltip' data-placement='bottom'>Завтрак <span class='fa fa-eye'></span></a>",
+        "desa2": "Можно употреблять вместе с кофе, чаем, травяным чаем, растительным молоком или сделать фруктовый сок (не смешивать сладкие и кислые фрукты).",
+        "legu2": "Можете сочетать их с вареными овощами.",
+        "legu": "Бобовые",
+        "asoc": "Здоровое меню",
+        "asoc2": "Метод сочетает в себе здоровое питание для лучшего усвоения продуктов без <a href='http://www.youtube.com/watch?v=ollTyekTSK0' data-toggle='tooltip' data-placement='bottom' target='_blank' title='Смотреть видео'>ферментации <span class='fa fa-eye'></span></a>",
+        "asoc3": "Создайте свое еженедельное меню, выбрав из следующего списка продукты, которые вам не не по вкусу, или вы не можете их принимать в пищу (непереносимость):",
+        "seguir": 'Следите за последними новостями - <a target="_blank" href="//www.metodomanniello.com">сайт Метода Манниэлло</a>.',
+        "libroImg": "Книга о методе Манниэлло",
+        "webTitle": "Нажмите, чтобы перейти на сайт Метода Манниэлло",
+        "web": "metodomanniello.com",
+        "email": "Введите ваш емейл",
+        "enviar": "Отправить",
+        "suscri": "Подпишитесь на рассылку новостей о здоровье д-ра Донато Манниэлло:",
+        "empieza": "Начните менять свою жизнь",
+        "verVideo": "Смотреть видео",
+        "parr1": '<p><strong>Качество здоровья и долголетия</strong> - это слова на повестке дня. ' 
+                + 'В это время мы сталкиваемся с такими явлениями, как лишний вес, ожирение, ' 
+                + 'патологии с повышенным фактором риска (холестерин, повышенное давление, диабет), депрессия, ' 
+                + 'образование… Мы можем с легкостью заявить, что эти явления представляют проблему нашего общества, ' 
+                + 'но не должны забывать о том, что именно мы несем ответственность за принятие решений.</p><p>Мы решаем принимать в пищу тот или иной ' 
+                + 'продукт, решаем делать или нет физические упражнения, мы можем думать тем или иным образом, и даже ' 
+                + 'принимать или нет определенное лекарство. В конце концов, мы должны понимать, что <strong>решение ' 
+                + 'всегда за нами</strong>. И что любые перемены начинаются внутри нас.</p>' 
+                + '<p>Более 1000 человек изменили образ своей жизни, применяя его метод, избавились от болезней, повысили уровень иммунитета, жизнедеятельности и выносливости. Вы сможете жить более здоровой, крепкой и безболезненной жизнью.</p><p>Посмотрите <a href="#grupos">видео о различных группах продуктов питания</a> и <a href="#noticias">' 
+                + 'подпишитесь на рассылку новостей о здоровом образе жизни</a> , чтобы положить начало переменам в вашей жизни. Следите за последними' 
+                + ' новостями на <a target="_blank" href="//www.metodomanniello.com">сайте Метода Манниэлло</a>.</p>',
+        "linkComprar": "Нажмите, чтобы купить книгу",
+        "tambien": "Также доступна",
+        "kindle": "версия Kindle",
+        "crear": "Создать меню",
+        "libro": "Книга",
+        "cambiare": "и я изменю твою жизнь",
+        "llevame": "Возьми меня с собой",
+        "comprar": "Купить книгу",
+        "title": "Метод Манниэлло - Качественное здоровье и долголетие",
+        "pasos2": "Привычки для здорового образа жизни, <a href='http://www.youtube.com/watch?v=w4Ggo8uJIwY' target='_blank' data-toggle='tooltip' data-placement='bottom' title='Смотреть видео'>пищевая непереносимость <span class='fa fa-eye'></span></a> и альтернативная медицина.",
+        "appTitle": "Метод Манниэлло",
+        "pasos": "Основные шаги для достижения качественного здоровья и долголетия",
+        "appUrl": "http://www.metodomanniello.com",
+        "appName": "Качество здоровья и долголетия",
+        "appDesc": "Книга о том, как сделать первые шаги на пути изменения жизни - Привычки для здорового образа жизни - Пищевая непереносимость - Альтернативная медицина",
+        "Enviando": "Отправляется...",
+        "EnvioRealizado": "Ваше меню было успешно отправлено.",
+        "NoInternetConection": "Невозможно было установить соединение интернет.",
+        "SuscripcionRealizada": "Ваша подписка произошла успешно, скоро вы получите наши новости.",
+        "languages": [
+                {
+                    "language":"English"
+                },
+                {
+                    "language":"Español"
+                },
+                {
+                    "language":"Français"
+                },
+                {
+                    "language":"Deutsch"
+                },
+                {
+                    "language":"Pусский"
+                }
+        ],
+        "mainMenu": {
+            options: [
+                {
+                    "option":"Книга"
+                },
+                {
+                    "option":"Группы продуктов"
+                },
+                {
+                    "option":"Здоровое сочетание"
+                },
+                {
+                    "option":"Ваше здоровое меню"
+                },
+                {
+                    "option":"Клиника"
+                },
+                {
+                    "option":"Контакты"
+                }
+            ]
+        },
+        "modules": {
+            "home": {
+                "home_title": "Ваше здоровое меню",
+                "home_desc1": "Чтобы <a href='#menu' class='nuevo-menu'><strong>создать меню</strong> <span class='fa fa-cutlery'></span></a> вначале выберите продукты из списка выше, которые вам не по вкусу, или к которым у вас есть непереносимость.",   
+            },
+            "menu":{
+                "errorAlimentos": "Чтобы создать меню, необходимы фрукты, завтрак, овощи, углеводы и белки.",
+                "leyenda": "Нажмите на <span class='fa fa-heart-o fa-lg leyenda'></span> для дополнительного выбора",
+                "enviaatu": "Введите адрес вашей эл. почты, и мы отправим вам здоровое меню:",
+                "email": "Введите ваш емейл",
+                "lunesLetra": "ПН",
+                "martesLetra": "ВТ",
+                "miercolesLetra": "СР",
+                "juevesLetra": "ЧТ",
+                "viernesLetra": "ПТ",
+                "sabadoLetra": "СБ",
+                "domingoLetra": "ВС",
+                "lunes": "Понедельник",
+                "martes": "Вторник",
+                "miercoles": "Среда",
+                "jueves": "Четверг",
+                "viernes": "Пятница",
+                "sabado": "Суббота",
+                "domingo": "Воскресенье",
+                "eldesayuno": "Завтрак",
+                "lamedia": "Второй завтрак",
+                "elalmuerzo": "Обед",
+                "lamerienda": "Полдник",
+                "lacena": "Ужин",
+                "enviar": "Отправить меню",
+                "enviarEmail": "Отправить по емейл",
+                "imprimir": "Распечатать меню",
+                "verdura": "Овощи",
+                "proteina": "Белки",
+                "carbohidrato": "Углеводы",
+                "legumbre": "Бобовые",
+                "fruta": "Фрукты",
+                "desayuno": "Завтрак",
+                "cocidas": "вареные",
+                "raciones": " порции",
+                "racion": " порция",
+                "crudas": "сырые",
+                "proteinas": "белки",
+                "and": "и",
+                "yogurSoja": "или соевый йогурт ",
+                "acida": "кислые",
+                "dulce": "сладкие",
+                "neutra": "нейтральные",
+                "panIntegral": " Можно употреблять ",
+                "home_title": "Ваше здоровое меню",
+                "desayunoPreferido": "Завтрак на ваш выбор",
+                "frutaNeutraPreferida": "Нейтральные фрукты на ваш выбор",
+                "frutaDulcePreferida": "Сладкие фрукты на ваш выбор",
+                "frutaAcidaPreferida": "Кислые фрукты на ваш выбор",
+                "mediaMañana": "Кислый фрукт  ({x}) с травяным чаем.",
+                "merienda": "Фрукт {x} ({y}) с травяным чаем.",
+                "bebidasDesayuno": "",
+                "otrosMedia": "Фрукт (кислый или сладкий), {x}с травяным чаем.",
+                "otrasMeriendas": "Сладкий или нейтральный фрукт, {x}с травяным чаем.",
+                "almuerzo": "Овощи {x} ({y}) с {z}.",
+                "cena": "Овощи {x} ({y}) с {z} ({k}).",
+                "verdurasCocidasPreferidas": "Вареные овощи на ваш выбор",
+                "verdurasCrudasPreferidas": "Сырые овощи на ваш выбор",
+                "meriendaPreferida": "На ваш выбор",
+                "carnePreferida": "Мясо на ваш выбор",
+                "pescadoPreferido": "Рыба на ваш выбор",
+                "legumbrePreferida": "Бобовые на ваш выбор",
+                "hidratosPreferidos": "Углеводы на ваш выбор",
+                "proteinasPreferidas": "Белки на ваш выбор",
+                "alimentos":[
+                    {
+                        "nombre": "Турецкий горох",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Один кислый фрукт",
+                        "nombreDinamico": "Кислый фрукт ({x}) один",
+                        "tipo": "desayuno",
+                        "subtipo": "fruta",
+                        "lista": [
+                            {"nombre": "фрукты", "tipo": "fruta", "subtipo": "ácida"}
+                        ]
+                    },
+                    {
+                        "nombre": "Печенье или цельнозерновые злаковые с соевым йогуртом",
+                        "tipo": "desayuno",
+                        "subtipo": "",
+                        "lista": [
+                            {"nombre": "или соевый йогурт", "tipo": "desayuno"},
+                            {"nombre": "Цельнозерновые печенье или злаки", "tipo": "desayuno"}
+                        ]
+                    },
+                    {
+                        "nombre": "Цельнозерновой хлеб с соевым маслом",
+                        "tipo": "desayuno",
+                        "subtipo": "",
+                        "lista": [
+                            {"nombre": "Можно употреблять", "tipo": "desayuno"},
+                            {"nombre": "Соевое масло", "tipo": "desayuno"}                        ]
+                    },
+                    {
+                        "nombreDinamico": "Сладкий фрукт ({x}) с соевым йогуртом",
+                        "nombre": "Сладкий фрукт с соевым йогуртом",
+                        "tipo": "desayuno",
+                        "subtipo": "фрукт",
+                        "lista": [
+                            {"nombre": "или соевый йогурт", "tipo": "desayuno"},
+                            {"nombre": "фрукты", "tipo": "fruta", "subtipo": "dulce"}                        ]
+                    },
+                    {
+                        "nombre": "Цельнозерновой хлеб с натуральным оливковым маслом экстра-класса",
+                        "tipo": "desayuno",
+                        "subtipo": "",
+                        "lista": [
+                            {"nombre": "Цельнозерновой хлеб", "tipo": "desayuno"},
+                            {"nombre": "Оливковое масло экстра класса", "tipo": "desayuno"}                        ]
+                    },
+                    {
+                        "nombre": "Фасоль",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Чечевица",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Красная чечевица",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Желтая чечевица",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Белая фасоль",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Фасоль-пинто",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Красная фасоль",
+                        "tipo": "legumbre",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Укроп",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },                    
+                    {
+                        "nombre": "Салат",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Цикорий",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Корн-салат",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Руккола",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Огурец",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Пророщенные зерна",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Капуста",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Грибы",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Белая свекла",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Шпинат",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Перец",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": true,
+                        "cocida": false
+                    },
+                    {
+                        "nombre": "Лук-порей",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Репа",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Баклажан",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Зеленая фасоль",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Сельдерей",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Артишок испанский",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Спаржа",
+                        "tipo": "verdura",
+                        "subtipo": "",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Кабачок",
+                        "tipo": "verdura",
+                        "tipo": "verde",
+                        "cruda": false,
+                        "cocida": true
+                    },
+                    {
+                        "nombre": "Брокколи",
+                        "tipo": "verdura",
+                        "tipo": "verde"
+                    },
+                    {
+                        "nombre": "Земляной орех",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Фисташка",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Кедровый орех",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Лесной орех",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Грецкий орех",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Миндаль",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    /*{
+                        "nombre": "Авокадо",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },*/
+                    {
+                        "nombre": "Каштаны",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },
+                    {
+                        "nombre": "Кокос",
+                        "tipo": "fruta",
+                        "subtipo": "neutra"
+                    },                    
+                    {
+                        "nombre": "Клубника",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Мушмула",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Дыня",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Мандарины",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Клубника",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Ананас",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Зеленое яблоко",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    /*{
+                        "nombre": "Маракуйя",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },*/
+                    {
+                        "nombre": "Грейпфрут",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Ежевика",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Манго",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Киви",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },
+                    {
+                        "nombre": "Апельсин",
+                        "tipo": "fruta",
+                        "fueraDelDesayuno": true,
+                        "subtipo": "ácida"
+                    },
+                    /*{
+                        "nombre": "Помидор",
+                        "tipo": "fruta",
+                        "subtipo": "ácida"
+                    },*/
+                    {
+                        "nombre": "Абрикос",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Сливы",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Финики",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Яблоко",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Арбуз",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Гранат",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Инжир",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Банан",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Дыня",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Виноград",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Вишня",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Черимойя",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Груша",
+                        "tipo": "fruta",
+                        "subtipo": "dulce"
+                    },
+                    {
+                        "nombre": "Яйца",
+                        "tipo": "proteina",
+                        "subtipo": "huevos"
+                    },
+                    {
+                        "nombre": "Сейтан",
+                        "tipo": "proteina",
+                        "subtipo": "vegetal"
+                    },
+                    {
+                        "nombre": "Тофу",
+                        "tipo": "proteina",
+                        "subtipo": "vegetal"
+                    },
+                    {
+                        "nombre": "Тунец",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Анчоусы",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Морской черт",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Дорада",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Осьминог",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Сепия",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Сардины",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Палтус",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Морской язык",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Лосось",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Кабалья",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Кальмар",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Треска",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Хек",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Морской судак",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Форель",
+                        "tipo": "proteina",
+                        "subtipo": "pescado"
+                    },
+                    {
+                        "nombre": "Мерценария",
+                        "tipo": "proteina",
+                        "subtipo": "marisco"
+                    },
+                    {
+                        "nombre": "Мидии",
+                        "tipo": "proteina",
+                        "subtipo": "marisco"
+                    },
+                    {
+                        "nombre": "Устрицы",
+                        "tipo": "proteina",
+                        "subtipo": "marisco"
+                    },
+                    {
+                        "nombre": "Камарон",
+                        "tipo": "proteina",
+                        "subtipo": "marisco"
+                    },
+                    {
+                        "nombre": "Рак",
+                        "tipo": "proteina",
+                        "subtipo": "marisco"
+                    },
+                    {
+                        "nombre": "Лангостин",
+                        "tipo": "proteina",
+                        "subtipo": "marisco"
+                    },
+                    {
+                        "nombre": "Говядина",
+                        "tipo": "proteina",
+                        "subtipo": "carne"
+                    },
+                    {
+                        "nombre": "Баранина",
+                        "tipo": "proteina",
+                        "subtipo": "carne"
+                    },
+                    {
+                        "nombre": "Индейка",
+                        "tipo": "proteina",
+                        "subtipo": "carne"
+                    },
+                    {
+                        "nombre": "Курица",
+                        "tipo": "proteina",
+                        "subtipo": "carne"
+                    },
+                    {
+                        "nombre": "Свинина",
+                        "tipo": "proteina",
+                        "subtipo": "carne"
+                    },
+                    {
+                        "nombre": "Крольчатина",
+                        "tipo": "proteina",
+                        "subtipo": "carne"
+                    },
+                    {
+                        "nombre": "Хлеб из спельты",
+                        "tipo": "carbohidrato",
+                        "subtipo": "panIntegral",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Ржаной хлеб",
+                        "tipo": "carbohidrato",
+                        "subtipo": "panIntegral",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Пшеничный хлеб",
+                        "tipo": "carbohidrato",
+                        "subtipo": "panIntegral",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Овсяный хлеб",
+                        "tipo": "carbohidrato",
+                        "subtipo": "panIntegral",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Кускус",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Цветная капуста",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Свекла",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Макаронные изделия",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Тыква",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Горох",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Артишок",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Морковь",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Белый рис",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Цельнозерновой рис",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Сойя",
+                        "tipo": "legumbre",
+                        "subtipo": "soja",
+                        "visible": false
+                    },
+                    {
+                        "nombre": "Кукуруза",
+                        "tipo": "carbohidrato",
+                        "subtipo": ""
+                    },
+                    {
+                        "nombre": "Картофель",
+                        "tipo": "",
                         "subtipo": ""
                     }
                 ]
