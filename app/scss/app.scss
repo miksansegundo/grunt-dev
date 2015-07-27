@@ -1045,7 +1045,7 @@ html[lang=de] .carousel .item p {
 }
 @media screen and (max-width: 768px) {
   .carousel-indicators {
-    height: 60px;
+    height: 65px;
   }
   .sidebar-nav li {
     line-height: 32px;
@@ -1099,6 +1099,9 @@ html[lang=de] .carousel .item p {
   [lang=ru] {
     h1 {
       font-size: 38px;
+    }
+    .page-header {
+      font-size: 30px;
     }
     #inicio h1, #titulo h1 {
       font-size: 35px;
