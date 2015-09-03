@@ -3861,42 +3861,42 @@ LITERALDATA = {
                     {
                         "nombre": "Салат",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
                     {
                         "nombre": "Цикорий",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
                     {
                         "nombre": "Корн-салат",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
                     {
                         "nombre": "Руккола",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
                     {
                         "nombre": "Огурец",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
                     {
                         "nombre": "Пророщенные зерна",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": true,
                         "cocida": false
                     },
@@ -3917,14 +3917,14 @@ LITERALDATA = {
                     {
                         "nombre": "Белая свекла",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": false,
                         "cocida": true
                     },
                     {
                         "nombre": "Шпинат",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": false,
                         "cocida": true
                     },
@@ -3959,14 +3959,14 @@ LITERALDATA = {
                     {
                         "nombre": "Зеленая фасоль",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": false,
                         "cocida": true
                     },
                     {
                         "nombre": "Сельдерей",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": false,
                         "cocida": true
                     },
@@ -3987,7 +3987,7 @@ LITERALDATA = {
                     {
                         "nombre": "Кабачок",
                         "tipo": "verdura",
-                        "tipo": "verde",
+                        "subtipo": "verde",
                         "cruda": false,
                         "cocida": true
                     },

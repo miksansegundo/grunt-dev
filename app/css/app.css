@@ -1,206 +1,137 @@
 /*
    APP - Styles
 _______________________*/
-@-moz-keyframes pulse {
-  0% {
-    -moz-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-  50% {
-    -moz-transform: scale(1.1, 1.1);
-    transform: scale(1.1, 1.1);
-  }
-  100% {
-    -moz-transform: scale(1, 1);
-    transform: scale(1, 1);
-  }
-}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
+
   50% {
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
   }
+
   100% {
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
 }
+
 @keyframes pulse {
   0% {
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
+
   50% {
-    -moz-transform: scale(1.1, 1.1);
-    -ms-transform: scale(1.1, 1.1);
     -webkit-transform: scale(1.1, 1.1);
     transform: scale(1.1, 1.1);
   }
+
   100% {
-    -moz-transform: scale(1, 1);
-    -ms-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
     transform: scale(1, 1);
   }
 }
-@-moz-keyframes bounceInRight {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(2000px);
-    transform: translateX(2000px);
-  }
-  60% {
-    opacity: 1;
-    -moz-transform: translateX(-30px);
-    transform: translateX(-30px);
-  }
-  80% {
-    -moz-transform: translateX(10px);
-    transform: translateX(10px);
-  }
-  100% {
-    -moz-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
+
 @-webkit-keyframes bounceInRight {
   0% {
     opacity: 0;
     -webkit-transform: translateX(2000px);
     transform: translateX(2000px);
   }
+
   60% {
     opacity: 1;
     -webkit-transform: translateX(-30px);
     transform: translateX(-30px);
   }
+
   80% {
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
+
 @keyframes bounceInRight {
   0% {
     opacity: 0;
-    -moz-transform: translateX(2000px);
-    -ms-transform: translateX(2000px);
     -webkit-transform: translateX(2000px);
     transform: translateX(2000px);
   }
+
   60% {
     opacity: 1;
-    -moz-transform: translateX(-30px);
-    -ms-transform: translateX(-30px);
     -webkit-transform: translateX(-30px);
     transform: translateX(-30px);
   }
+
   80% {
-    -moz-transform: translateX(10px);
-    -ms-transform: translateX(10px);
     -webkit-transform: translateX(10px);
     transform: translateX(10px);
   }
+
   100% {
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
-@-moz-keyframes bounceInLeft {
-  0% {
-    opacity: 0;
-    -moz-transform: translateX(-2000px);
-    transform: translateX(-2000px);
-  }
-  60% {
-    opacity: 1;
-    -moz-transform: translateX(30px);
-    transform: translateX(30px);
-  }
-  80% {
-    -moz-transform: translateX(-10px);
-    transform: translateX(-10px);
-  }
-  100% {
-    -moz-transform: translateX(0);
-    transform: translateX(0);
-  }
-}
+
 @-webkit-keyframes bounceInLeft {
   0% {
     opacity: 0;
     -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px);
   }
+
   60% {
     opacity: 1;
     -webkit-transform: translateX(30px);
     transform: translateX(30px);
   }
+
   80% {
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
+
   100% {
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
+
 @keyframes bounceInLeft {
   0% {
     opacity: 0;
-    -moz-transform: translateX(-2000px);
-    -ms-transform: translateX(-2000px);
     -webkit-transform: translateX(-2000px);
     transform: translateX(-2000px);
   }
+
   60% {
     opacity: 1;
-    -moz-transform: translateX(30px);
-    -ms-transform: translateX(30px);
     -webkit-transform: translateX(30px);
     transform: translateX(30px);
   }
+
   80% {
-    -moz-transform: translateX(-10px);
-    -ms-transform: translateX(-10px);
     -webkit-transform: translateX(-10px);
     transform: translateX(-10px);
   }
+
   100% {
-    -moz-transform: translateX(0);
-    -ms-transform: translateX(0);
     -webkit-transform: translateX(0);
     transform: translateX(0);
   }
 }
-@-moz-keyframes rotateIn {
-  0% {
-    -moz-transform-origin: center center;
-    transform-origin: center center;
-    -moz-transform: rotate(-200deg);
-    transform: rotate(-200deg);
-    opacity: 0;
-  }
-  100% {
-    -moz-transform-origin: center center;
-    transform-origin: center center;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes rotateIn {
   0% {
     -webkit-transform-origin: center center;
@@ -209,6 +140,7 @@ _______________________*/
     transform: rotate(-200deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: center center;
     transform-origin: center center;
@@ -217,46 +149,25 @@ _______________________*/
     opacity: 1;
   }
 }
+
 @keyframes rotateIn {
   0% {
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
     -webkit-transform-origin: center center;
     transform-origin: center center;
-    -moz-transform: rotate(-200deg);
-    -ms-transform: rotate(-200deg);
     -webkit-transform: rotate(-200deg);
     transform: rotate(-200deg);
     opacity: 0;
   }
+
   100% {
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
     -webkit-transform-origin: center center;
     transform-origin: center center;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
 }
-@-moz-keyframes rotateInDownLeft {
-  0% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  100% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes rotateInDownLeft {
   0% {
     -webkit-transform-origin: left bottom;
@@ -265,6 +176,7 @@ _______________________*/
     transform: rotate(-90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -273,46 +185,25 @@ _______________________*/
     opacity: 1;
   }
 }
+
 @keyframes rotateInDownLeft {
   0% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     opacity: 0;
   }
+
   100% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
 }
-@-moz-keyframes rotateInDownRight {
-  0% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
-    opacity: 0;
-  }
-  100% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes rotateInDownRight {
   0% {
     -webkit-transform-origin: right bottom;
@@ -321,6 +212,7 @@ _______________________*/
     transform: rotate(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -329,46 +221,25 @@ _______________________*/
     opacity: 1;
   }
 }
+
 @keyframes rotateInDownRight {
   0% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 0;
   }
+
   100% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
 }
-@-moz-keyframes rotateInUpLeft {
-  0% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
-    opacity: 0;
-  }
-  100% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes rotateInUpLeft {
   0% {
     -webkit-transform-origin: left bottom;
@@ -377,6 +248,7 @@ _______________________*/
     transform: rotate(90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -385,46 +257,25 @@ _______________________*/
     opacity: 1;
   }
 }
+
 @keyframes rotateInUpLeft {
   0% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 0;
   }
+
   100% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
 }
-@-moz-keyframes rotateInUpRight {
-  0% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-  100% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes rotateInUpRight {
   0% {
     -webkit-transform-origin: right bottom;
@@ -433,6 +284,7 @@ _______________________*/
     transform: rotate(-90deg);
     opacity: 0;
   }
+
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -441,46 +293,25 @@ _______________________*/
     opacity: 1;
   }
 }
+
 @keyframes rotateInUpRight {
   0% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     opacity: 0;
   }
+
   100% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
 }
-@-moz-keyframes rotateOut {
-  0% {
-    -moz-transform-origin: center center;
-    transform-origin: center center;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-  100% {
-    -moz-transform-origin: center center;
-    transform-origin: center center;
-    -moz-transform: rotate(200deg);
-    transform: rotate(200deg);
-    opacity: 0;
-  }
-}
+
 @-webkit-keyframes rotateOut {
   0% {
     -webkit-transform-origin: center center;
@@ -489,6 +320,7 @@ _______________________*/
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform-origin: center center;
     transform-origin: center center;
@@ -497,46 +329,25 @@ _______________________*/
     opacity: 0;
   }
 }
+
 @keyframes rotateOut {
   0% {
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
     -webkit-transform-origin: center center;
     transform-origin: center center;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
-    -moz-transform-origin: center center;
-    -ms-transform-origin: center center;
     -webkit-transform-origin: center center;
     transform-origin: center center;
-    -moz-transform: rotate(200deg);
-    -ms-transform: rotate(200deg);
     -webkit-transform: rotate(200deg);
     transform: rotate(200deg);
     opacity: 0;
   }
 }
-@-moz-keyframes rotateOutDownLeft {
-  0% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-  100% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
-    opacity: 0;
-  }
-}
+
 @-webkit-keyframes rotateOutDownLeft {
   0% {
     -webkit-transform-origin: left bottom;
@@ -545,6 +356,7 @@ _______________________*/
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -553,46 +365,25 @@ _______________________*/
     opacity: 0;
   }
 }
+
 @keyframes rotateOutDownLeft {
   0% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 0;
   }
 }
-@-moz-keyframes rotateOutDownRight {
-  0% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-  100% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-}
+
 @-webkit-keyframes rotateOutDownRight {
   0% {
     -webkit-transform-origin: right bottom;
@@ -601,6 +392,7 @@ _______________________*/
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -609,46 +401,25 @@ _______________________*/
     opacity: 0;
   }
 }
+
 @keyframes rotateOutDownRight {
   0% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     opacity: 0;
   }
 }
-@-moz-keyframes rotateOutUpLeft {
-  0% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-  100% {
-    -moz-transform-origin: left bottom;
-    transform-origin: left bottom;
-    -moz-transform: rotate(-90deg);
-    transform: rotate(-90deg);
-    opacity: 0;
-  }
-}
+
 @-webkit-keyframes rotateOutUpLeft {
   0% {
     -webkit-transform-origin: left bottom;
@@ -657,6 +428,7 @@ _______________________*/
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
@@ -665,46 +437,25 @@ _______________________*/
     opacity: 0;
   }
 }
+
 @keyframes rotateOutUpLeft {
   0% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
-    -moz-transform-origin: left bottom;
-    -ms-transform-origin: left bottom;
     -webkit-transform-origin: left bottom;
     transform-origin: left bottom;
-    -moz-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
     -webkit-transform: rotate(-90deg);
     transform: rotate(-90deg);
     opacity: 0;
   }
 }
-@-moz-keyframes rotateOutUpRight {
-  0% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    transform: rotate(0);
-    opacity: 1;
-  }
-  100% {
-    -moz-transform-origin: right bottom;
-    transform-origin: right bottom;
-    -moz-transform: rotate(90deg);
-    transform: rotate(90deg);
-    opacity: 0;
-  }
-}
+
 @-webkit-keyframes rotateOutUpRight {
   0% {
     -webkit-transform-origin: right bottom;
@@ -713,6 +464,7 @@ _______________________*/
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
@@ -721,94 +473,109 @@ _______________________*/
     opacity: 0;
   }
 }
+
 @keyframes rotateOutUpRight {
   0% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(0);
-    -ms-transform: rotate(0);
     -webkit-transform: rotate(0);
     transform: rotate(0);
     opacity: 1;
   }
+
   100% {
-    -moz-transform-origin: right bottom;
-    -ms-transform-origin: right bottom;
     -webkit-transform-origin: right bottom;
     transform-origin: right bottom;
-    -moz-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg);
     opacity: 0;
   }
 }
-@-moz-keyframes fadeInDown {
-  0% {
-    -moz-transform: translateY(-20px);
-    transform: translateY(-20px);
-    opacity: 0;
-  }
-  100% {
-    -moz-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
+
 @-webkit-keyframes fadeInDown {
   0% {
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     opacity: 0;
   }
+
   100% {
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @keyframes fadeInDown {
   0% {
-    -moz-transform: translateY(-20px);
-    -ms-transform: translateY(-20px);
     -webkit-transform: translateY(-20px);
     transform: translateY(-20px);
     opacity: 0;
   }
+
   100% {
-    -moz-transform: translateY(0);
-    -ms-transform: translateY(0);
     -webkit-transform: translateY(0);
     transform: translateY(0);
     opacity: 1;
   }
 }
+
 @font-face {
   font-family: "Open Sans";
   src: url('../fonts/OpenSans-Regular-webfont.woff') format('woff'), url('../fonts/OpenSans-Regular-webfont.ttf') format('truetype'), url('../fonts/OpenSans-Regular-webfont.svg') format('svg'), url('../fonts/OpenSans-Regular-webfont.otf') format('opentype');
 }
+
 @font-face {
   font-family: "Amatic SC";
   src: url(/);
   src: url(/?#iefix) format('embedded-opentype'), url('../fonts/amaticsc-regular-webfont.woff') format('woff'), url('../fonts/amaticsc-regular-webfont.ttf') format('truetype'), url('../fonts/amaticsc-regular-webfont.svg') format('svg'), url('../fonts/amaticsc-regular-webfont.otf') format('opentype');
   font-weight: bold;
 }
+
 /* Global Styles */
-/* line 65, ../scss/app.scss */
-html, body, #main {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000365;
+  }
+}
+
+html,
+body,
+#main {
   width: 100%;
   height: 100%;
   padding: 0;
 }
 
-/* line 71, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000371;
+  }
+}
+
 #main {
   background: #fff;
 }
 
-/* line 75, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000375;
+  }
+}
+
 body {
   height: auto;
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -816,27 +583,75 @@ body {
   transition: opacity 200ms ease-out;
   opacity: 0;
 }
-/* line 81, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000381;
+  }
+}
+
 body.ready {
   opacity: 1;
   background: #000;
 }
 
-/* line 87, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000387;
+  }
+}
+
 a {
   color: #419641;
 }
-/* line 89, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000389;
+  }
+}
+
 a:hover {
   color: #316F31;
 }
 
-/* line 94, ../scss/app.scss */
-p, li {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000394;
+  }
+}
+
+p,
+li {
   line-height: 1.4em;
 }
 
-/* line 98, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \0000398;
+  }
+}
+
 h1 {
   font-family: "Amatic SC";
   letter-spacing: 7px;
@@ -844,19 +659,46 @@ h1 {
   text-transform: uppercase;
 }
 
-/* line 105, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003105;
+  }
+}
+
 [lang=ru] h1 {
   font-family: "Open Sans";
 }
 
-/* line 109, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003109;
+  }
+}
+
 .text-vertical-center {
   display: table-cell;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 115, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003115;
+  }
+}
+
 .text-vertical-center h1 {
   margin: 0;
   padding: 0;
@@ -865,12 +707,31 @@ h1 {
   font-weight: 700;
 }
 
-/* line 123, ../scss/app.scss */
-section, header {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003123;
+  }
+}
+
+section,
+header {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 
-/* line 127, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003127;
+  }
+}
+
 #fullscreen {
   width: 100%;
   background: #333;
@@ -882,25 +743,63 @@ section, header {
   position: fixed;
   bottom: 0;
 }
-/* line 128, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003128;
+  }
+}
+
 #fullscreen strong {
   display: block;
   font-size: 20px;
 }
 
-/* line 144, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003144;
+  }
+}
+
 #libro #lt-parr1 {
   overflow: hidden;
 }
 
 /* Custom Button Styles */
-/* line 150, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003150;
+  }
+}
+
 .btn-dark {
   color: #fff;
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 155, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003155;
+  }
+}
+
 .btn-dark:hover,
 .btn-dark:focus,
 .btn-dark:active {
@@ -908,13 +807,31 @@ section, header {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-/* line 162, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003162;
+  }
+}
+
 .btn-light {
   color: #333;
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-/* line 167, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003167;
+  }
+}
+
 .btn-light:hover,
 .btn-light:focus,
 .btn-light:active {
@@ -923,23 +840,61 @@ section, header {
 }
 
 /* Custom Horizontal Rule */
-/* line 176, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003176;
+  }
+}
+
 hr.small {
   max-width: 100px;
 }
 
-/* line 180, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003180;
+  }
+}
+
 .call-to-action {
   overflow: hidden;
 }
 
 /* Side Menu */
-/* line 185, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003185;
+  }
+}
+
 #menuContainer {
   position: relative;
 }
 
-/* line 189, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003189;
+  }
+}
+
 #sidebar-wrapper {
   z-index: 1000;
   position: fixed;
@@ -950,16 +905,44 @@ hr.small {
   transition: right 0.4s ease-in 0s;
 }
 
-/* line 199, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003199;
+  }
+}
+
 #sidebar-wrapper.active {
   right: 0;
 }
-/* line 200, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003200;
+  }
+}
+
 #sidebar-wrapper.active .toggle {
   z-index: 20;
 }
 
-/* line 206, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003206;
+  }
+}
+
 .sidebar-nav {
   width: 100%;
   margin: 0;
@@ -967,13 +950,31 @@ hr.small {
   list-style: none;
 }
 
-/* line 213, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003213;
+  }
+}
+
 .sidebar-nav li {
   text-indent: 20px;
   line-height: 37px;
 }
 
-/* line 218, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003218;
+  }
+}
+
 .sidebar-nav li a {
   display: block;
   text-decoration: none;
@@ -982,7 +983,16 @@ hr.small {
   font-size: 18px;
 }
 
-/* line 227, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003227;
+  }
+}
+
 .sidebar-nav li a:hover,
 .sidebar-nav li a:focus {
   text-decoration: none;
@@ -990,7 +1000,16 @@ hr.small {
   background: rgba(255, 255, 255, 0.2);
 }
 
-/* line 234, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003234;
+  }
+}
+
 .sidebar-nav li.active a,
 .sidebar-nav li a:active {
   text-decoration: none;
@@ -998,7 +1017,16 @@ hr.small {
   background: rgba(255, 255, 255, 0.6);
 }
 
-/* line 241, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003241;
+  }
+}
+
 .sidebar-nav > .sidebar-brand {
   height: 57px;
   overflow: hidden;
@@ -1008,25 +1036,62 @@ hr.small {
   text-indent: 15px;
 }
 
-/* line 250, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003250;
+  }
+}
+
 .sidebar-nav > .sidebar-brand a {
   color: #ddd;
 }
 
-/* line 254, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003254;
+  }
+}
+
 .sidebar-nav > .sidebar-brand a:hover {
   color: #fff;
   background: none;
 }
 
-/* line 259, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003259;
+  }
+}
+
 #sidebar-wrapper .btn-group .btn:active,
 #sidebar-wrapper .btn-group .btn.active {
   background: #979797;
 }
 
-/* line 264, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003264;
+  }
+}
+
 #menu-toggle {
+  -webkit-animation: bounceInRight 1s 1;
   animation: bounceInRight 1s 1;
   z-index: 1000;
   position: fixed;
@@ -1034,7 +1099,16 @@ hr.small {
   right: 0;
 }
 
-/* line 272, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003272;
+  }
+}
+
 #menu-close {
   position: absolute;
   top: 0;
@@ -1042,46 +1116,123 @@ hr.small {
   z-index: 1000;
 }
 
-/*.android {
-  #menu-toggle, #menu-close {
-    display:none
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
   }
-}*/
-/* line 285, ../scss/app.scss */
+
+  line {
+    font-family: \00003285;
+  }
+}
+
 .cursor {
   cursor: pointer;
 }
-/* line 287, ../scss/app.scss */
-.cursor:hover, .cursor:active, .cursor:focus {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003287;
+  }
+}
+
+.cursor:hover,
+.cursor:active,
+.cursor:focus {
   text-shadow: 2px 2px 1px #fff;
 }
 
-/* line 292, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003292;
+  }
+}
+
 .toggle {
   margin: 5px 5px 0 0;
 }
-/* line 294, ../scss/app.scss */
-.toggle, .toggle.fa {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003294;
+  }
+}
+
+.toggle,
+.toggle.fa {
   cursor: pointer;
 }
-/* line 297, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003297;
+  }
+}
+
 .toggle:hover .fa {
   transition: color .2s ease-in;
+  -webkit-animation: pulse .8s 1;
   animation: pulse .8s 1;
 }
 
 /* Header */
-/* line 305, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003305;
+  }
+}
+
 .header .center {
   background: rgba(255, 255, 255, 0.34);
   padding: 1em 0;
 }
-/* line 308, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003308;
+  }
+}
+
 .header .center.effect {
+  -webkit-animation: fadeInDown 1s 1;
   animation: fadeInDown 1s 1;
 }
 
-/* line 314, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003314;
+  }
+}
+
 .header {
   display: table;
   position: relative;
@@ -1093,68 +1244,174 @@ hr.small {
 }
 
 @media screen and (max-width: 600px) {
-  /* line 324, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \00003324;
+    }
+}
+
   .header {
     background-attachment: scroll;
     background-image: url("../img/bg1_600.jpg");
   }
 }
+
 @media screen and (min-width: 601px) {
-  /* line 330, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \00003330;
+    }
+}
+
   .header {
     background-attachment: scroll;
     background-image: url("../img/bg1_1000.jpg");
   }
 }
+
 @media screen and (min-width: 1000px) {
-  /* line 336, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \00003336;
+    }
+}
+
   .header {
     background-attachment: scroll;
     background-image: url("../img/bg1_1200.jpg");
   }
 }
+
 @media screen and (min-width: 1200px) {
-  /* line 342, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \00003342;
+    }
+}
+
   .header {
     background-attachment: fixed;
     background-image: url("../img/bg1_1400.jpg");
   }
 }
-/* line 348, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003348;
+  }
+}
+
 .header h1 {
   color: #000;
 }
 
-/* line 352, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003352;
+  }
+}
+
 .header h3 {
   color: #000;
   padding: .2em 0;
 }
 
-/* line 357, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003357;
+  }
+}
+
 .header .fa-heart-o {
   padding: 0 10px;
 }
 
 /* About */
-/* line 362, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003362;
+  }
+}
+
 .about {
   padding: 50px 0;
 }
 
 /* Services */
-/* line 368, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003368;
+  }
+}
+
 .services {
   padding: 50px 0;
 }
 
-/* line 372, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003372;
+  }
+}
+
 .service-item {
   margin-bottom: 30px;
 }
 
 /* Callout */
-/* line 379, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003379;
+  }
+}
+
 .callout {
   display: table;
   width: 100%;
@@ -1164,18 +1421,46 @@ hr.small {
   background-size: contain;
   transition: all 1s ease-in;
 }
-/* line 387, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003387;
+  }
+}
+
 .callout.center {
   background-position: center -5px;
 }
 
-/* line 392, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003392;
+  }
+}
+
 .callout h1 {
   color: #000;
   text-transform: uppercase;
 }
 
-/* line 397, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003397;
+  }
+}
+
 .link-cli,
 .link-cli:hover {
   font-size: 2em;
@@ -1183,121 +1468,339 @@ hr.small {
   line-height: 1em;
 }
 
-/* line 404, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003404;
+  }
+}
+
 .shadow {
   text-shadow: 4px 4px 0 white, -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
 }
 
-/* line 412, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003412;
+  }
+}
+
 .shadow_b {
   color: #000;
   text-shadow: -2px -2px 0 white, 2px -2px 0 white, -2px 2px 0 white, 2px 2px 0 white;
 }
 
-/* line 420, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003420;
+  }
+}
+
 .fa-heart {
   text-shadow: 1px 1px 0 rgba(150, 214, 15, 0.59);
 }
 
-/* line 424, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003424;
+  }
+}
+
 .shadow_l {
   text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.42), 1px -1px 0 rgba(255, 255, 255, 0.47), -1px 1px 0 rgba(255, 255, 255, 0.5), 1px 1px 0 rgba(255, 255, 255, 0.44);
 }
 
-/* line 428, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003428;
+  }
+}
+
 .shadow_l_r {
   color: #000;
   text-shadow: 2px 1px 0 rgba(255, 255, 255, 0.42);
 }
 
-/* line 433, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003433;
+  }
+}
+
 h3.shadow_l_r_w {
   color: #fff;
   text-shadow: 2px 1px 0 rgba(0, 0, 0, 0.42);
 }
 
 /* Portfolio */
-/* line 440, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003440;
+  }
+}
+
 .portfolio {
   padding: 50px 0;
 }
 
-/* line 444, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003444;
+  }
+}
+
 .portfolio-item {
   margin-bottom: 30px;
 }
 
-/* line 448, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003448;
+  }
+}
+
 .img-portfolio {
   margin: 0 auto;
 }
 
-/* line 452, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003452;
+  }
+}
+
 .img-portfolio:hover {
   opacity: 0.8;
 }
 
 /* Call to Action */
-/* line 458, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003458;
+  }
+}
+
 .call-to-action {
   padding: 50px 0;
 }
 
-/* line 462, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003462;
+  }
+}
+
 .call-to-action .btn {
   margin: 10px 5px;
 }
 
-/* line 466, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003466;
+  }
+}
+
 .call-to-action .input-group-btn .btn {
   margin: 0;
 }
 
 /* Map */
-/* line 472, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003472;
+  }
+}
+
 #contacto img {
   max-width: inherit;
 }
 
-/* line 476, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003476;
+  }
+}
+
 .map {
   height: 500px;
 }
 
-/* line 480, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003480;
+  }
+}
+
 #content_map strong {
   font-size: 1.1em;
 }
 
 /* Footer */
-/* line 488, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003488;
+  }
+}
+
 footer {
   padding: 100px 0 0;
 }
-/* line 490, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003490;
+  }
+}
+
 footer h4 {
   text-transform: uppercase;
 }
-/* line 493, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003493;
+  }
+}
+
 footer .tel {
   font-size: 19px;
 }
-/* line 495, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003495;
+  }
+}
+
 footer .tel a {
   line-height: 28px;
 }
-/* line 499, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003499;
+  }
+}
+
 footer a:hover .fa {
   transition: color .2s ease-in;
+  -webkit-animation: pulse .8s 1;
   animation: pulse .8s 1;
 }
 
 /* Video */
-/* line 506, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003506;
+  }
+}
+
 .ver-video {
   text-decoration: none;
 }
-/* line 508, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003508;
+  }
+}
+
 .ver-video .fa {
   position: absolute;
   color: rgba(255, 255, 255, 0.9);
@@ -1307,106 +1810,288 @@ footer a:hover .fa {
   margin-top: -35px;
   margin-left: -35px;
 }
-/* line 517, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003517;
+  }
+}
+
 .ver-video:hover .fa {
   transition: color .2s ease-in;
+  -webkit-animation: pulse .8s 1;
   animation: pulse .8s 1;
   color: rgba(179, 18, 23, 0.9);
 }
 
-/* line 524, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003524;
+  }
+}
+
 #idiomas {
   z-index: 1;
   position: absolute;
   top: 10px;
   right: 10px;
 }
-/* line 529, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003529;
+  }
+}
+
 #idiomas img {
   width: 37px;
 }
-/* line 532, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003532;
+  }
+}
+
 #idiomas .btn {
   opacity: .9;
 }
-/* line 534, ../scss/app.scss */
-#idiomas .btn:hover, #idiomas .btn.active {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003534;
+  }
+}
+
+#idiomas .btn:hover,
+#idiomas .btn.active {
   opacity: 1;
   background: rgba(255, 255, 255, 0.4);
 }
-/* line 538, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003538;
+  }
+}
+
 #idiomas .btn.active img {
   width: 40px;
 }
 
-/* line 544, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003544;
+  }
+}
+
 #sidebar-wrapper #idiomas {
   opacity: 1;
   bottom: 20px;
   top: auto;
 }
 
-/* line 550, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003550;
+  }
+}
+
 .fa-eye {
   font-size: 15px;
   vertical-align: text-top;
 }
 
-/* line 556, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003556;
+  }
+}
+
 .btn:not(.btn-link):hover .fa {
   transition: color .2s ease-in;
+  -webkit-animation: pulse .8s 1;
   animation: pulse .8s 1;
 }
-/* line 559, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003559;
+  }
+}
+
 .btn:not(.btn-link) .caret {
   margin-right: 10px;
   color: #91AC91;
 }
 
-/* line 565, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003565;
+  }
+}
+
 .no-float {
   float: none;
 }
 
-/* line 569, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003569;
+  }
+}
+
 .panel-title {
   font-weight: bold;
 }
 
-/* line 574, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003574;
+  }
+}
+
 #alimentos label .btn:focus {
   outline: none;
   background: #fff;
   border-radius: 4px;
 }
-/* line 581, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003581;
+  }
+}
+
 #alimentos .panel {
   text-align: left;
   background: rgba(255, 255, 255, 0.5);
   padding: 2px 5px 5px;
 }
-/* line 584, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003584;
+  }
+}
+
 #alimentos .panel .btn-block {
   margin-top: 5px;
 }
 
-/* line 592, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003592;
+  }
+}
+
 #tips li {
   line-height: 1.3em;
   padding-bottom: 3px;
 }
 
-/* line 597, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003597;
+  }
+}
+
 .lead {
   font-size: 21px;
 }
 
-/* line 600, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003600;
+  }
+}
+
 .clear-left {
   clear: left;
 }
 
-/* line 604, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003604;
+  }
+}
+
 .bootstrap-checkbox > button.btn {
   padding: 0;
   width: 23px;
@@ -1414,71 +2099,188 @@ footer a:hover .fa {
   height: 24px;
 }
 
-/* line 611, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003611;
+  }
+}
+
 .bootstrap-checkbox .fa-times {
   margin-top: -2px;
   margin-left: -1px;
 }
 
-/* line 616, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003616;
+  }
+}
+
 .bootstrap-checkbox > button.btn span {
   color: #91AC91;
   background: rgba(255, 255, 255, 0.6);
 }
 
-/* line 621, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003621;
+  }
+}
+
 .bootstrap-checkbox > button.btn span:hover {
   color: #809680;
 }
 
-/* line 625, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003625;
+  }
+}
+
 .bootstrap-checkbox > button.btn.displayAsButton {
   width: auto;
 }
 
-/* line 629, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003629;
+  }
+}
+
 .bootstrap-checkbox > button.btn.displayAsButton > span.label-checkbox {
   padding: 0 8px 0 4px;
 }
 
-/* line 633, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003633;
+  }
+}
+
 .bootstrap-checkbox > button.btn.displayAsButton > span.icon {
   margin: 2px 4px;
 }
 
-/* line 637, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003637;
+  }
+}
+
 .bootstrap-checkbox > button.btn.displayAsButton > span.label-prepend-checkbox {
   padding: 0 4px 0 8px;
 }
 
-/* line 641, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003641;
+  }
+}
+
 .bootstrap-checkbox > .btn.btn-link {
   text-decoration: none;
 }
 
-/* line 645, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003645;
+  }
+}
+
 label.bootstrap-checkbox.disabled {
   cursor: default;
   color: #666;
 }
 
-/* line 650, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003650;
+  }
+}
+
 .bootstrap-checkbox > .label-prepend-checkbox {
   padding-right: 4px;
 }
 
-/* line 654, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003654;
+  }
+}
+
 .bootstrap-checkbox > .label-checkbox {
   padding-left: 4px;
 }
 
-/* line 658, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003658;
+  }
+}
+
 .bootstrap-checkbox.disabled > [class^="label-"],
 .bootstrap-checkbox > .btn[disabled] {
   cursor: not-allowed;
 }
 
-/* line 663, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003663;
+  }
+}
+
 .checkbox {
   margin: 10px 0px 0px 0px;
   text-align: left;
@@ -1489,74 +2291,228 @@ label.bootstrap-checkbox.disabled {
   vertical-align: text-top;
   margin-top: 5px;
 }
-/* line 673, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003673;
+  }
+}
+
 .checkbox + .checkbox {
   margin-top: 5px;
 }
-/* line 677, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003677;
+  }
+}
+
 .checkbox label {
   padding-left: 5px;
   line-height: 10px;
   display: block;
 }
-/* line 682, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003682;
+  }
+}
+
 .checkbox button {
   margin-left: -25px;
 }
-/* line 685, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003685;
+  }
+}
+
 .checkbox .fa-times {
   font-size: 24px;
 }
-/* line 688, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003688;
+  }
+}
+
 .checkbox input[type=checkbox] {
   margin: 0 6px;
   position: static;
 }
 
-/* line 694, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003694;
+  }
+}
+
 #grupo_7 .checkbox {
   width: 100%;
 }
 
-/* line 699, ../scss/app.scss */
-.fa-youtube:hover, .fa-youtube:focus, .fa-youtube:active {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003699;
+  }
+}
+
+.fa-youtube:hover,
+.fa-youtube:focus,
+.fa-youtube:active {
   color: #FF3333;
 }
 
-/* line 705, ../scss/app.scss */
-.fa-facebook:hover, .fa-facebook:focus, .fa-facebook:active {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003705;
+  }
+}
+
+.fa-facebook:hover,
+.fa-facebook:focus,
+.fa-facebook:active {
   color: #3B5998;
 }
 
-/* line 711, ../scss/app.scss */
-.fa-linkedin:hover, .fa-linkedin:focus, .fa-linkedin:active {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003711;
+  }
+}
+
+.fa-linkedin:hover,
+.fa-linkedin:focus,
+.fa-linkedin:active {
   color: #4875B4;
 }
 
-/* line 717, ../scss/app.scss */
-.fa-google-plus:hover, .fa-google-plus:focus, .fa-google-plus:active {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003717;
+  }
+}
+
+.fa-google-plus:hover,
+.fa-google-plus:focus,
+.fa-google-plus:active {
   color: #C63D2D;
 }
 
-/* line 724, ../scss/app.scss */
-.fa-twitter:hover, .fa-twitter:focus, .fa-twitter:active {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003724;
+  }
+}
+
+.fa-twitter:hover,
+.fa-twitter:focus,
+.fa-twitter:active {
   color: #33CCFF;
 }
 
-/* line 729, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003729;
+  }
+}
+
 #menufixed {
   transition: margin 0.4s ease-in 0s;
 }
-/* line 733, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003733;
+  }
+}
+
 #menufixed li {
   padding: 0;
 }
-/* line 735, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003735;
+  }
+}
+
 #menufixed li a {
   color: #5e5e5e;
 }
-/* line 740, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003740;
+  }
+}
+
 #menufixed.fixed {
+  -webkit-animation: bounceInLeft 1s 1;
   animation: bounceInLeft 1s 1;
   padding: 2px;
   position: fixed;
@@ -1566,7 +2522,17 @@ label.bootstrap-checkbox.disabled {
   border-radius: 6px;
   z-index: 10;
 }
-/* line 749, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003749;
+  }
+}
+
 #menufixed.fixed a {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.9);
@@ -1575,41 +2541,121 @@ label.bootstrap-checkbox.disabled {
   padding: 2px 0;
   text-shadow: 0px 0px 2px #333;
 }
-/* line 756, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003756;
+  }
+}
+
 #menufixed.fixed a:hover {
   background: rgba(0, 0, 0, 0.4);
 }
-/* line 758, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003758;
+  }
+}
+
 #menufixed.fixed a:hover .fa {
   color: white;
   transition: color .2s ease-in;
+  -webkit-animation: pulse .8s 1;
   animation: pulse .8s 1;
 }
-/* line 767, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003767;
+  }
+}
+
 #menufixed.out {
   margin-left: -300px;
 }
 
-/* line 772, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003772;
+  }
+}
+
 .carousel {
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
-/* line 777, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003777;
+  }
+}
+
 .carousel .popover .arrow {
   display: none;
 }
-/* line 779, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003779;
+  }
+}
+
 .carousel .popover .arrow:after {
   display: none;
 }
-/* line 784, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003784;
+  }
+}
+
 .carousel .item {
   height: 100%;
   border-radius: 10px;
   background: rgba(255, 254, 237, 0.32);
 }
-/* line 789, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003789;
+  }
+}
+
 .carousel .item .carousel-caption {
   left: 12%;
   right: 12%;
@@ -1619,7 +2665,17 @@ label.bootstrap-checkbox.disabled {
   bottom: auto;
   padding-top: 0;
 }
-/* line 799, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003799;
+  }
+}
+
 .carousel .item .popover-title {
   background-image: linear-gradient(to bottom, #fcf8e3 0%, #faf2cc 100%);
   background-repeat: repeat-x;
@@ -1628,23 +2684,77 @@ label.bootstrap-checkbox.disabled {
   border-color: #faebcc;
   font-weight: bold;
 }
-/* line 808, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003808;
+  }
+}
+
 .carousel .item p {
   text-transform: lowercase;
 }
-/* line 812, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003812;
+  }
+}
+
 .carousel .item .popover-content {
   text-transform: none;
 }
-/* line 816, ../scss/app.scss */
-.carousel .item .popover-content, .carousel .item .popover-title, .carousel .item p {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003816;
+  }
+}
+
+.carousel .item .popover-content,
+.carousel .item .popover-title,
+.carousel .item p {
   line-height: 19px;
 }
-/* line 818, ../scss/app.scss */
-.carousel .item .popover-content:first-letter, .carousel .item .popover-title:first-letter, .carousel .item p:first-letter {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003818;
+  }
+}
+
+.carousel .item .popover-content:first-letter,
+.carousel .item .popover-title:first-letter,
+.carousel .item p:first-letter {
   text-transform: uppercase;
 }
-/* line 823, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003823;
+  }
+}
+
 .carousel .item .fa {
   padding: 3px 4px;
   font-weight: bold;
@@ -1653,48 +2763,134 @@ label.bootstrap-checkbox.disabled {
   font-size: 15px;
   vertical-align: text-top;
 }
-/* line 831, ../scss/app.scss */
-.carousel .item .fa:hover, .carousel .item .fa:focus {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003831;
+  }
+}
+
+.carousel .item .fa:hover,
+.carousel .item .fa:focus {
   text-decoration: none;
   color: #419641;
 }
-/* line 836, ../scss/app.scss */
-.carousel .item .fa:hover:before, .carousel .item .fa:focus:before {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003836;
+  }
+}
+
+.carousel .item .fa:hover:before,
+.carousel .item .fa:focus:before {
   content: "\f004";
 }
 
-/* line 844, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003844;
+  }
+}
+
 html[lang=de] .carousel .item p {
   text-transform: none;
 }
 
-/* line 849, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003849;
+  }
+}
+
 #grupos .img-responsive {
   width: 100%;
 }
 
-/* line 854, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003854;
+  }
+}
+
 #menu {
   padding-top: 50px;
 }
 
-/* line 858, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003858;
+  }
+}
+
 .carousel-control {
   border-radius: 10px;
   color: rgba(0, 0, 0, 0.7);
   z-index: 9;
 }
-/* line 862, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003862;
+  }
+}
+
 .carousel-control:hover {
   color: rgba(0, 0, 0, 0.8);
 }
 
-/* line 867, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003867;
+  }
+}
+
 #menu-content {
   background: #fff;
 }
 
-/* line 871, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003871;
+  }
+}
+
 .page-header {
   border-bottom: 1px solid rgba(197, 197, 197, 0.8);
   font-size: 33px;
@@ -1704,7 +2900,16 @@ html[lang=de] .carousel .item p {
   margin-top: 11px;
 }
 
-/* line 880, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003880;
+  }
+}
+
 .carousel-indicators {
   padding-top: 8px;
   margin-top: 20px;
@@ -1712,7 +2917,17 @@ html[lang=de] .carousel .item p {
   margin-left: -50%;
   width: 100%;
 }
-/* line 887, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003887;
+  }
+}
+
 .carousel-indicators li {
   width: auto;
   min-width: 27px;
@@ -1725,8 +2940,19 @@ html[lang=de] .carousel .item p {
   border-radius: 4px;
   color: black;
 }
-/* line 898, ../scss/app.scss */
-.carousel-indicators li:hover:not(.active), .carousel-indicators li:focus {
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003898;
+  }
+}
+
+.carousel-indicators li:hover:not(.active),
+.carousel-indicators li:focus {
   font-weight: bold;
   color: #fff;
   opacity: 1;
@@ -1735,7 +2961,17 @@ html[lang=de] .carousel .item p {
   border: none;
   background: #419641;
 }
-/* line 907, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003907;
+  }
+}
+
 .carousel-indicators li.active {
   background: #3CAC3C;
   min-width: 30px;
@@ -1746,35 +2982,100 @@ html[lang=de] .carousel .item p {
   opacity: 1;
 }
 
-/* line 919, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003919;
+  }
+}
+
 .offline-ui {
   display: none;
 }
 
-/* line 923, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003923;
+  }
+}
+
 .print-only {
   display: none;
 }
 
-/* line 927, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003927;
+  }
+}
+
 .panel-body {
   padding: 15px 15px 5px;
 }
-/* line 929, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003929;
+  }
+}
+
 .panel-body ul {
   padding-left: 20px;
 }
-/* line 931, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003931;
+  }
+}
+
 .panel-body ul ul {
   margin-top: 5px;
 }
 
-/* line 937, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003937;
+  }
+}
+
 .actions {
   display: none;
 }
 
-/* line 941, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003941;
+  }
+}
+
 #form-login {
   position: absolute;
   top: 5px;
@@ -1786,11 +3087,31 @@ html[lang=de] .carousel .item p {
   max-width: 171px;
   z-index: 10;
 }
-/* line 951, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003951;
+  }
+}
+
 #form-login .logout-button input {
   display: none;
 }
-/* line 954, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003954;
+  }
+}
+
 #form-login .button {
   background: none;
   border-radius: 6px;
@@ -1798,139 +3119,379 @@ html[lang=de] .carousel .item p {
   background-color: rgba(0, 0, 0, 0.6);
   padding: 10px 16px;
 }
-/* line 961, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003961;
+  }
+}
+
 #form-login ul {
   display: none;
 }
 
-/* line 966, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003966;
+  }
+}
+
 #system-message {
   margin-top: 5px;
   text-align: center;
 }
-/* line 967, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003967;
+  }
+}
+
 #system-message ul {
   list-style: none;
 }
 
-/* line 975, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003975;
+  }
+}
+
 .leyenda {
   color: #419641;
   font-size: 15px;
   font-weight: bold;
 }
 
-/* line 981, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003981;
+  }
+}
+
 .leyenda-txt {
   padding-top: 5px;
   font-size: 15px;
 }
 
-/* line 986, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003986;
+  }
+}
+
 .infos {
   display: block;
   padding: 3px 0 0;
   height: 18px;
 }
-/* line 990, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003990;
+  }
+}
+
 .infos a {
   height: 16px;
   display: inline-block;
   overflow: hidden;
 }
 
-/* line 997, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \00003997;
+  }
+}
+
 #enviar-menu {
   background: #fff;
   margin: 0;
   opacity: 1;
   padding-top: 15px;
 }
-/* line 1000, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031000;
+  }
+}
+
 #enviar-menu.hide {
   opacity: 0;
 }
-/* line 1003, ../scss/app.scss */
+
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031003;
+  }
+}
+
 #enviar-menu .btn {
   margin: 0;
 }
 
-/* line 1010, ../scss/app.scss */
-.print, .enviar {
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031010;
+  }
+}
+
+.print,
+.enviar {
   margin: 10px 5px;
 }
 
-/* line 1014, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031014;
+  }
+}
+
 .mensaje {
   padding-bottom: 15px;
 }
 
-/* line 1017, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031017;
+  }
+}
+
 .enviar-mensaje {
   padding: 30px;
   font-size: 17px;
   font-weight: bold;
 }
 
-/* line 1023, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031023;
+  }
+}
+
 #grupo_1 .checkbox {
   width: 50%;
 }
 
-/* line 1028, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031028;
+  }
+}
+
 .carousel-caption > h3 {
   margin: 19px 0 5px;
   font-size: 24px;
 }
 
-/* line 1033, ../scss/app.scss */
+@media -sass-debug-info {
+  filename {
+    font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+  }
+
+  line {
+    font-family: \000031033;
+  }
+}
+
 .carousel-caption {
   padding-bottom: 0;
 }
 
 @media screen and (max-width: 1024px) {
-  /* line 1041, ../scss/app.scss */
-  #grupo_6 .checkbox, #grupo_3 .checkbox,
-  #pescados .checkbox, #carnes .checkbox, #mariscos .checkbox,
-  #fruta_acida .checkbox, #fruta_dulce .checkbox, #fruta_neutra .checkbox {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031041;
+    }
+}
+
+  #grupo_6 .checkbox,
+  #grupo_3 .checkbox,
+  #pescados .checkbox,
+  #carnes .checkbox,
+  #mariscos .checkbox,
+  #fruta_acida .checkbox,
+  #fruta_dulce .checkbox,
+  #fruta_neutra .checkbox {
     width: 50%;
   }
 }
+
 @media screen and (max-width: 768px) {
-  /* line 1047, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031047;
+    }
+}
+
   .carousel-indicators {
-    height: 60px;
+    height: 65px;
   }
 
-  /* line 1050, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031050;
+    }
+}
+
   .sidebar-nav li {
     line-height: 32px;
   }
 
-  /* line 1053, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031053;
+    }
+}
+
   #menu-content {
     margin: 0 -10px 0 -10px;
   }
 
-  /* line 1056, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031056;
+    }
+}
+
   .infos a {
     margin: 0 5px;
   }
 
-  /* line 1060, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031060;
+    }
+}
+
   #enviar-menu input {
     margin-bottom: 5px;
   }
-  /* line 1063, ../scss/app.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031063;
+    }
+}
+
   #enviar-menu .input-group {
     display: block;
   }
-  /* line 1066, ../scss/app.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031066;
+    }
+}
+
   #enviar-menu .input-group-btn {
     width: 100%;
     display: block;
   }
-  /* line 1070, ../scss/app.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031070;
+    }
+}
+
   #enviar-menu .btn {
     margin: 0;
     width: 100%;
@@ -1938,114 +3499,327 @@ html[lang=de] .carousel .item p {
     border-radius: 4px;
   }
 
-  /* line 1077, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031077;
+    }
+}
+
   h1 {
     letter-spacing: 6px;
   }
 
-  /* line 1080, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031080;
+    }
+}
+
   #titulo h1 {
     font-size: 74px;
   }
 
-  /* line 1084, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031084;
+    }
+}
+
   #inicio h3 {
     padding: 0px 0 5px;
   }
-  /* line 1087, ../scss/app.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031087;
+    }
+}
+
   #inicio h1 {
     font-size: 73px;
     padding-top: 15px;
   }
-  /* line 1092, ../scss/app.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031092;
+    }
+}
+
   #inicio .fa-heart-o {
     display: block;
     font-size: 21px;
     margin-bottom: -6px;
   }
 
-  /* line 1100, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031100;
+    }
+}
+
   [lang=ru] h1 {
     font-size: 38px;
   }
-  /* line 1103, ../scss/app.scss */
-  [lang=ru] #inicio h1, [lang=ru] #titulo h1 {
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031103;
+    }
+}
+
+  [lang=ru] .page-header {
+    font-size: 30px;
+  }
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031106;
+    }
+}
+
+  [lang=ru] #inicio h1,
+  [lang=ru] #titulo h1 {
     font-size: 35px;
   }
 
-  /* line 1108, ../scss/app.scss */
-  .link-cli, .link-cli:hover {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031111;
+    }
+}
+
+  .link-cli,
+  .link-cli:hover {
     font-size: 26px;
   }
 
-  /* line 1112, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031115;
+    }
+}
+
   .map {
     height: 75%;
   }
 
-  /* line 1116, ../scss/app.scss */
-  .portfolio, .call-to-action {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031119;
+    }
+}
+
+  .portfolio,
+  .call-to-action {
     padding: 20px 0;
   }
 
-  /* line 1119, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031122;
+    }
+}
+
   .input-group-addon {
     display: none;
   }
 
-  /* line 1122, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031125;
+    }
+}
+
   #lt-myemail {
     font-size: 18px;
   }
 
-  /* line 1125, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031128;
+    }
+}
+
   #menu {
     padding-top: 15px;
   }
 
-  /* line 1128, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031131;
+    }
+}
+
   .carousel-caption > h3 {
     margin: 10px 0 0px;
     font-size: 21px;
   }
 
-  /* line 1132, ../scss/app.scss */
-  .print, .enviar {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031135;
+    }
+}
+
+  .print,
+  .enviar {
     display: block;
     width: 80%;
     margin: 9px auto;
   }
 
-  /* line 1140, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031143;
+    }
+}
+
   h1:not(.header h1) {
     font-size: 50px;
   }
 
-  /* line 1144, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031147;
+    }
+}
+
   #menufixed a {
     font-size: 14px;
   }
-  /* line 1147, ../scss/app.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031150;
+    }
+}
+
   #menufixed.fixed a {
     font-size: 11px;
     line-height: 14px;
   }
 
-  /* line 1152, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031155;
+    }
+}
+
   .callout {
     background-size: cover;
   }
 
-  /* line 1155, ../scss/app.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/app\.scss;
+    }
+
+    line {
+      font-family: \000031158;
+    }
+}
+
   .img-circle {
     border: 0;
     box-shadow: 0px 0px 0px 4px #fff;
     padding: 0;
   }
 }
+
 /* Print */
+
 @media print {
-  /* line 8, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \000038;
+    }
+}
+
   * {
     text-shadow: none !important;
     color: #000 !important;
@@ -2053,52 +3827,133 @@ html[lang=de] .carousel .item p {
     box-shadow: none !important;
   }
 
-  /* line 15, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000315;
+    }
+}
+
   a,
   a:visited {
     text-decoration: underline;
   }
 
-  /* line 20, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000320;
+    }
+}
+
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 24, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000324;
+    }
+}
+
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 29, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000329;
+    }
+}
+
   a[href^="javascript:"]:after,
   a[href^="#"]:after {
     content: "";
   }
 
-  /* line 34, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000334;
+    }
+}
+
   pre,
   blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 40, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000340;
+    }
+}
+
   thead {
     display: table-header-group;
   }
 
-  /* line 44, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000344;
+    }
+}
+
   tr,
   img {
     page-break-inside: avoid;
   }
 
-  /* line 49, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000349;
+    }
+}
+
   img {
     max-width: 100% !important;
   }
 
-  /* line 53, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000353;
+    }
+}
+
   p,
   h2,
   h3 {
@@ -2106,98 +3961,259 @@ html[lang=de] .carousel .item p {
     widows: 3;
   }
 
-  /* line 60, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000360;
+    }
+}
+
   h2,
   h3 {
     page-break-after: avoid;
   }
 
-  /* line 67, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000367;
+    }
+}
+
   select {
     background: #fff !important;
   }
 
-  /* line 72, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000372;
+    }
+}
+
   .navbar {
     display: none;
   }
 
-  /* line 76, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000376;
+    }
+}
+
   .table td,
   .table th {
     background-color: #fff !important;
   }
 
-  /* line 83, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000383;
+    }
+}
+
   .btn > .caret,
   .dropup > .btn > .caret {
     border-top-color: #000 !important;
   }
 
-  /* line 87, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000387;
+    }
+}
+
   .label {
     border: 1px solid #000;
   }
 
-  /* line 91, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000391;
+    }
+}
+
   .table {
     border-collapse: collapse !important;
   }
 
-  /* line 95, ../scss/bootstrap-sass/stylesheets/bootstrap/_print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/bootstrap-sass\/stylesheets\/bootstrap\/_print\.scss;
+    }
+
+    line {
+      font-family: \0000395;
+    }
+}
+
   .table-bordered th,
   .table-bordered td {
     border: 1px solid #ddd !important;
   }
 }
+
 @media print {
-  /* line 11, ../scss/_app-print.scss */
-  section, aside, .header, footer, .carousel-indicators, .carousel-control, .no-print {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000311;
+    }
+}
+
+  section,
+  aside,
+  .header,
+  footer,
+  .carousel-indicators,
+  .carousel-control,
+  .no-print {
     display: none;
   }
 
-  /* line 15, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000315;
+    }
+}
+
   h3 {
     margin: 0;
     font-size: 17px;
   }
 
-  /* line 20, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000320;
+    }
+}
+
   .callout {
     height: auto;
     padding-top: 10px;
   }
-  /* line 23, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000323;
+    }
+}
+
   .callout h1 {
     font-size: 30px;
     margin-top: 0px;
     margin-bottom: 15px;
   }
 
-  /* line 30, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000330;
+    }
+}
+
   a[href]:after {
     content: "";
   }
 
-  /* line 34, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000334;
+    }
+}
+
   a[data-toggle="popover"] {
     display: none;
   }
 
-  /* line 38, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000338;
+    }
+}
+
   .link-cli {
     font-size: 16px;
     text-decoration: none;
     margin: 6px;
   }
 
-  /* line 45, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000345;
+    }
+}
+
   .carousel-inner {
     position: static;
     height: auto !important;
   }
 
-  /* line 50, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000350;
+    }
+}
+
   .carousel .item {
     height: auto;
     position: static;
@@ -2208,36 +4224,106 @@ html[lang=de] .carousel .item p {
     width: 49%;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   }
-  /* line 60, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000360;
+    }
+}
+
   .carousel .item.last {
     width: 100%;
   }
-  /* line 62, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000362;
+    }
+}
+
   .carousel .item.last h2 {
     padding: 10px 0 0 0;
   }
-  /* line 67, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000367;
+    }
+}
+
   .carousel .item p {
     line-height: 17px;
     text-transform: none;
     margin-bottom: 9px;
   }
-  /* line 73, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000373;
+    }
+}
+
   .carousel .item:nth-child(2n+1) {
     clear: left;
     margin-right: 2%;
   }
-  /* line 78, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000378;
+    }
+}
+
   .carousel .item .carousel-caption {
     text-align: left;
     position: static;
     page-break-inside: avoid;
   }
-  /* line 82, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000382;
+    }
+}
+
   .carousel .item .carousel-caption .infos {
     display: none;
   }
-  /* line 85, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000385;
+    }
+}
+
   .carousel .item .carousel-caption h3 {
     float: left;
     font-size: 16px;
@@ -2246,17 +4332,46 @@ html[lang=de] .carousel .item p {
     margin: 0;
     font-weight: bold;
   }
-  /* line 91, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \0000391;
+    }
+}
+
   .carousel .item .carousel-caption h3:after {
     content: ": ";
   }
 
-  /* line 100, ../scss/_app-print.scss */
-  #menu, .carousel-caption {
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003100;
+    }
+}
+
+  #menu,
+  .carousel-caption {
     padding: 0;
   }
 
-  /* line 104, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003104;
+    }
+}
+
   h1 {
     margin-top: 35px;
     margin-bottom: 0;
@@ -2266,7 +4381,16 @@ html[lang=de] .carousel .item p {
     font-weight: bold;
   }
 
-  /* line 113, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003113;
+    }
+}
+
   .page-header {
     page-break-inside: avoid;
     padding: 20px 0 0 0;
@@ -2274,60 +4398,176 @@ html[lang=de] .carousel .item p {
     font-size: 20px;
   }
 
-  /* line 120, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003120;
+    }
+}
+
   section {
     box-shadow: none;
   }
 
-  /* line 124, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003124;
+    }
+}
+
   #tips {
     padding-top: 15px;
     font-size: 14px;
   }
-  /* line 127, ../scss/_app-print.scss */
-  #tips, #tips div {
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003127;
+    }
+}
+
+  #tips,
+  #tips div {
     border: none;
     font-size: 14px;
     padding: 0;
   }
-  /* line 132, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003132;
+    }
+}
+
   #tips .panel-title {
     border-bottom: 1px solid rgba(197, 197, 197, 0.8);
     margin-bottom: 10px;
   }
-  /* line 136, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003136;
+    }
+}
+
   #tips .caret {
     display: none;
   }
-  /* line 139, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003139;
+    }
+}
+
   #tips .panel {
     padding-bottom: 21px;
   }
-  /* line 142, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003142;
+    }
+}
+
   #tips .panel-body {
     display: block;
   }
-  /* line 145, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003145;
+    }
+}
+
   #tips ul {
     padding-left: 19px;
   }
-  /* line 147, ../scss/_app-print.scss */
+
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003147;
+    }
+}
+
   #tips ul li {
     line-height: 17px;
     padding-bottom: 2px;
   }
 
-  /* line 154, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003154;
+    }
+}
+
   .print-only {
     display: block;
   }
 
-  /* line 158, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003158;
+    }
+}
+
   .panel-heading {
     padding: 5px 10px;
   }
 
-  /* line 162, ../scss/_app-print.scss */
+@media -sass-debug-info {
+    filename {
+      font-family: file\:\/\/C\:\/Users\/StudiomiK\/Documents\/Metodo\%20Manniello\/app\/scss\/_app-print\.scss;
+    }
+
+    line {
+      font-family: \00003162;
+    }
+}
+
   .panel-title {
     text-transform: uppercase;
   }
